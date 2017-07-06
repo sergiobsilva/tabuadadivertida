@@ -1,0 +1,139 @@
+/* line 6, ../sass/variables-theme-1.scss */
+a,
+a.default-hovered:active,
+a.default-hovered.default-active,
+a.default-hovered.active {
+  color: #cd3333;
+}
+
+/* line 10, ../sass/variables-theme-1.scss */
+a.default-hovered:hover,
+a.default-hovered.default-hover {
+  color: #cd3333;
+  opacity: 0.9;
+}
+
+/* line 16, ../sass/variables-theme-1.scss */
+a.default-hovered:active:after,
+a.default-hovered.default-active:after,
+a.default-hovered.active:after {
+  background: #cd3333;
+}
+@media (max-width: 767px) {
+  /* line 16, ../sass/variables-theme-1.scss */
+  a.default-hovered:active:after,
+  a.default-hovered.default-active:after,
+  a.default-hovered.active:after {
+    background: #bbb;
+  }
+}
+
+/* line 23, ../sass/variables-theme-1.scss */
+#header.top-menu {
+  background-color: #000;
+}
+
+/* line 28, ../sass/variables-theme-1.scss */
+.top-menu .navbar nav ul li a,
+.top-menu .navbar nav ul li a i {
+  color: #cd3333 !important;
+}
+
+/* line 32, ../sass/variables-theme-1.scss */
+.top-menu .navbar nav ul li.parent li a,
+.top-menu .navbar nav ul li.parent li a i {
+  color: #bbbbbb !important;
+}
+
+/* line 38, ../sass/variables-theme-1.scss */
+.top-menu .minimized-menu .navbar nav ul li a,
+.top-menu .minimized-menu .navbar nav ul li a i,
+.top-menu .transform-menu .navbar nav ul li a,
+.top-menu .transform-menu .navbar nav ul li a i {
+  color: #bbbbbb !important;
+}
+
+/* line 46, ../sass/variables-theme-1.scss */
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered:hover:after,
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered:focus:after,
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered:hover:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered:focus:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered:after {
+  background: #bbbbbb !important;
+}
+
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+/* line 53, ../sass/variables-theme-1.scss */
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+  color: #bbb;
+}
+@media (max-width: 992px) {
+  /* line 53, ../sass/variables-theme-1.scss */
+  .header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+  .header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+    color: #bbb;
+  }
+}
+
+/* line 59, ../sass/variables-theme-1.scss */
+a.default-hovered:after {
+  background: #cd3333;
+}
+
+/* line 62, ../sass/variables-theme-1.scss */
+.transform-menu a.default-hovered:after {
+  background: #cd3333;
+}
+
+/* line 65, ../sass/variables-theme-1.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #cd3333;
+  opacity: 0.8;
+}
+
+/* line 71, ../sass/variables-theme-1.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text,
+.header.minimized-menu .primary .navbar .btn-navbar .text {
+  color: #cd3333;
+}
+
+/* line 77, ../sass/variables-theme-1.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+  background-color: #cd3333;
+}
+
+/* line 82, ../sass/variables-theme-1.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #cd3333;
+}
+/* line 84, ../sass/variables-theme-1.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #cd3333;
+}
+
+/* line 88, ../sass/variables-theme-1.scss */
+.top-nav-line #menu-open {
+  background: #fff;
+}
+
+/* line 91, ../sass/variables-theme-1.scss */
+.top-nav-line #menu-open .text {
+  color: #cd3333;
+}
+
+/* line 94, ../sass/variables-theme-1.scss */
+.primary-banner h1 {
+  color: #fff;
+  font-size: 120px;
+}

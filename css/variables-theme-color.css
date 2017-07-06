@@ -1,0 +1,401 @@
+/* line 9, ../sass/variables-theme-color.scss */
+a,
+a.default-hovered:active,
+a.default-hovered.default-active,
+a.default-hovered.active {
+  color: #eb8f00;
+}
+
+/* line 13, ../sass/variables-theme-color.scss */
+a.default-hovered:hover,
+a.default-hovered.default-hover {
+  color: #eb8f00;
+  opacity: 0.9;
+}
+
+/* line 19, ../sass/variables-theme-color.scss */
+a.default-hovered:active:after,
+a.default-hovered.default-active:after,
+a.default-hovered.active:after {
+  background: #eb8f00;
+}
+
+/* Header Menu
+-------------------------------------------------------------------------------------*/
+/* line 25, ../sass/variables-theme-color.scss */
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+  color: #bbb;
+}
+
+/* line 28, ../sass/variables-theme-color.scss */
+a.default-hovered:after {
+  background: #eb8f00;
+}
+
+/* line 31, ../sass/variables-theme-color.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #eb8f00;
+  opacity: 0.8;
+}
+
+/* line 37, ../sass/variables-theme-color.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text,
+.header.minimized-menu .primary .navbar .btn-navbar .text {
+  color: #eb8f00;
+}
+
+/* line 42, ../sass/variables-theme-color.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar {
+  background-color: #eb8f00;
+}
+
+/* line 47, ../sass/variables-theme-color.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #eb8f00;
+}
+/* line 49, ../sass/variables-theme-color.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #eb8f00;
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../sass/variables-theme-color.scss */
+  .menu-sidebar .widget-box > div ul li a, .menu-sidebar .widget-box > div ul li i {
+    color: #eb8f00 !important;
+  }
+}
+
+/* line 58, ../sass/variables-theme-color.scss */
+a.default-hovered:focus:after {
+  background: #eb8f00;
+}
+
+/* line 62, ../sass/variables-theme-color.scss */
+.top-menu .widget-box > div ul li a,
+.top-menu .widget-box > div ul li i {
+  color: #eb8f00 !important;
+}
+
+/* line 65, ../sass/variables-theme-color.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+  border: 1px solid #eb8f00;
+}
+
+/* line 68, ../sass/variables-theme-color.scss */
+.form-control:focus {
+  border: 1px solid #eb8f00;
+}
+
+/* line 72, ../sass/variables-theme-color.scss */
+::-webkit-input-placeholder {
+  color: #eb8f00 !important;
+}
+
+/* line 75, ../sass/variables-theme-color.scss */
+:-moz-placeholder {
+  color: #eb8f00 !important;
+}
+
+/* line 78, ../sass/variables-theme-color.scss */
+::-moz-placeholder {
+  color: #eb8f00 !important;
+}
+
+/* line 81, ../sass/variables-theme-color.scss */
+:-ms-input-placeholder {
+  color: #eb8f00 !important;
+}
+
+/* line 84, ../sass/variables-theme-color.scss */
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 87, ../sass/variables-theme-color.scss */
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* line 90, ../sass/variables-theme-color.scss */
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* line 93, ../sass/variables-theme-color.scss */
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+/* line 99, ../sass/variables-theme-color.scss */
+.top-menu .navbar nav ul li a,
+.top-menu .navbar nav ul li a i {
+  color: #eb8f00 !important;
+}
+
+/* line 103, ../sass/variables-theme-color.scss */
+.top-menu .navbar nav ul li.parent li a,
+.top-menu .navbar nav ul li.parent li a i {
+  color: #bbbbbb !important;
+}
+
+/* line 109, ../sass/variables-theme-color.scss */
+.top-menu .minimized-menu .navbar nav ul li a,
+.top-menu .minimized-menu .navbar nav ul li a i,
+.top-menu .transform-menu .navbar nav ul li a,
+.top-menu .transform-menu .navbar nav ul li a i {
+  color: #bbbbbb !important;
+}
+
+/* line 117, ../sass/variables-theme-color.scss */
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered:hover:after,
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered:focus:after,
+.top-menu .minimized-menu .navbar nav ul li a.default-hovered.default-hover:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered:hover:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered:focus:after,
+.top-menu .transform-menu .navbar nav ul li a.default-hovered.default-hover:after {
+  background: #bbbbbb !important;
+}
+
+/*Logo
+----------------------------------------------------------------------------------*/
+/* line 125, ../sass/variables-theme-color.scss */
+.logo-mini svg * {
+  fill: #eb8f00 !important;
+}
+
+/*Primary
+----------------------------------------------------------------------------------*/
+/* line 133, ../sass/variables-theme-color.scss */
+.primary-banner h1 {
+  margin-bottom: 30px;
+}
+
+/* line 136, ../sass/variables-theme-color.scss */
+.primary-banner p.tlt {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+}
+@media (max-width: 767px) {
+  /* line 136, ../sass/variables-theme-color.scss */
+  .primary-banner p.tlt {
+    font-size: 23px;
+  }
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+/* line 148, ../sass/variables-theme-color.scss */
+#about-us .table-block h1,
+#about-us h5 {
+  color: #eb8f00;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+/* line 155, ../sass/variables-theme-color.scss */
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i {
+  color: #eb8f00;
+}
+
+/* portfolio
+------------------------------------------------------------------------------------*/
+/* line 161, ../sass/variables-theme-color.scss */
+.portfolio .isotop-filters {
+  background: #eb8f00;
+  opacity: 0.95;
+}
+
+/* line 165, ../sass/variables-theme-color.scss */
+.sliders .container-fluid .a-slider-tcontrols {
+  background: #eb8f00;
+}
+
+/* line 168, ../sass/variables-theme-color.scss */
+.sliders .container-fluid .a-slider-tcontrols a {
+  color: #fff;
+}
+
+/* line 172, ../sass/variables-theme-color.scss */
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name {
+  color: #eb8f00;
+}
+
+/* line 178, ../sass/variables-theme-color.scss */
+.portfolio .element-item:focus .overlay,
+.portfolio .element-item:active .overlay,
+.portfolio .element-item:hover .overlay {
+  background: #eb8f00;
+  opacity: 0.8;
+}
+
+/* line 182, ../sass/variables-theme-color.scss */
+.portfolio .isotope h3 span {
+  color: #fff;
+}
+
+/* line 186, ../sass/variables-theme-color.scss */
+.sliders .container-fluid .additional-info .link a {
+  background: #eb8f00;
+}
+
+/* line 189, ../sass/variables-theme-color.scss */
+.sliders .container-fluid .additional-info .link a:hover {
+  background: #eb8f00;
+  opacity: 0.9;
+}
+
+/* line 194, ../sass/variables-theme-color.scss */
+.portfolio .element-item .overlay .p-target path {
+  fill: #fff;
+}
+
+/*Services
+------------------------------------------------------------------------------------*/
+/* line 200, ../sass/variables-theme-color.scss */
+a:hover, a:active, a:focus {
+  color: #eb8f00;
+}
+
+/* line 203, ../sass/variables-theme-color.scss */
+.red-color {
+  color: #eb8f00;
+}
+
+/* line 206, ../sass/variables-theme-color.scss */
+.services h3:after {
+  background: #eb8f00;
+}
+
+/* line 210, ../sass/variables-theme-color.scss */
+.like-theme .purcase-now a .icon-box:before,
+.like-theme .purcase-now a .icon-box:after {
+  background: #eb8f00;
+}
+
+/*Price
+------------------------------------------------------------------------------------*/
+/* line 215, ../sass/variables-theme-color.scss */
+.price h1 {
+  color: rgba(255, 143, 0, 0.9);
+}
+
+/* line 218, ../sass/variables-theme-color.scss */
+.pricing-box .price-icon {
+  color: #eb8f00;
+}
+
+/* line 221, ../sass/variables-theme-color.scss */
+.pricing-box a.btn-default {
+  color: #eb8f00;
+}
+
+/* line 224, ../sass/variables-theme-color.scss */
+.pricing-box ul li .price {
+  color: #fff;
+}
+
+/*Notify me
+------------------------------------------------------------------------------------*/
+/* line 229, ../sass/variables-theme-color.scss */
+.btn-default.red-style {
+  background-color: #eb8f00;
+}
+
+/* line 232, ../sass/variables-theme-color.scss */
+.btn-default.red-style:hover, .btn-default.red-style.button-hover {
+  background-color: rgba(255, 143, 0, 0.9);
+}
+
+/* line 236, ../sass/variables-theme-color.scss */
+.sliders .rslides_tabs li.rslides_here a:after,
+.sliders .rslides_tabs li:hover a:after {
+  background-color: #ff8f00;
+}
+
+/* line 239, ../sass/variables-theme-color.scss */
+.sliders .rslides_tabs li a:after {
+  background-color: rgba(255, 143, 0, 0.75);
+}
+
+/* line 243, ../sass/variables-theme-color.scss */
+.sliders .rslides_tabs li.rslides_here a:before,
+.sliders .rslides_tabs li:hover a:before {
+  border: 1px solid #eb8f00;
+}
+
+/*Faq
+------------------------------------------------------------------------------------*/
+/* line 248, ../sass/variables-theme-color.scss */
+.faq .tab-content h5, .faq .tab-content h6 {
+  color: #eb8f00;
+}
+
+/* line 251, ../sass/variables-theme-color.scss */
+.faq .tab-content h5, .faq .tab-content h6 {
+  color: #eb8f00;
+}
+
+/* line 254, ../sass/variables-theme-color.scss */
+.faq h1 {
+  color: #eb8f00;
+}
+
+/*sample-2
+------------------------------------------------------------------------------------*/
+/* line 261, ../sass/variables-theme-color.scss */
+.sample-2 .btn {
+  background: #f0a860;
+}
+/* line 264, ../sass/variables-theme-color.scss */
+.sample-2 .btn:hover, .sample-2 .btn.button-hover {
+  background: #ee9b49;
+}
+/* line 270, ../sass/variables-theme-color.scss */
+.sample-2 .btn:active, .sample-2 .btn:focus, .sample-2 .btn:active:focus, .sample-2 .btn.button-active {
+  background: #ed963f;
+  box-shadow: inset 0 2px 0px #ec943b;
+}
+/* line 274, ../sass/variables-theme-color.scss */
+.sample-2 .btn.red-style {
+  background: #f77482;
+}
+/* line 277, ../sass/variables-theme-color.scss */
+.sample-2 .btn.red-style:hover, .sample-2 .btn.red-style.button-hover {
+  background: #f65c6c;
+}
+/* line 283, ../sass/variables-theme-color.scss */
+.sample-2 .btn.red-style:active, .sample-2 .btn.red-style:focus, .sample-2 .btn.red-style:active:focus, .sample-2 .btn.red-style.button-active {
+  background: #f55264;
+  box-shadow: inset 0 2px 0px #f54d5f;
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+/* line 294, ../sass/variables-theme-color.scss */
+.sample-3 span {
+  color: #eb8f00;
+}
+/* line 297, ../sass/variables-theme-color.scss */
+.sample-3 .btn-default.red-style {
+  background: #eb8f00;
+}
+/* line 300, ../sass/variables-theme-color.scss */
+.sample-3 .btn-default.red-style:hover, .sample-3 .btn-default.red-style.button-hover {
+  background: #d27f00;
+}
+/* line 306, ../sass/variables-theme-color.scss */
+.sample-3 .btn-default.red-style:active, .sample-3 .btn-default.red-style:focus, .sample-3 .btn-default.red-style:active:focus, .sample-3 .btn-default.red-style.button-active {
+  background: #c77900;
+  box-shadow: inset 0 2px 0px #c27600;
+}

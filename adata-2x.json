@@ -1,0 +1,170 @@
+{
+	"1" : {
+		"title" : "FAZENDO A DIFERNÇA",
+		"description" : "<p>Uma estimulante palestra que esclarece como ser e fazer a Diferença na Educação de seu filho.</p>",
+		"client" : "Palestra",
+		"url" : "https://www.youtube.com/watch?v=W1xBhxSgWl0",
+		"photos" : ["images/portfolio/img/33@2x.jpg"]
+	},
+	"2" : {
+		"title" : "Innovative Eco-design",
+		"description" : "<p>Bright eco-design to showcase your projects in a very realistic and professional way.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Georg Shnider",
+		"url" : "",
+		"photos" : ["images/portfolio/img/2@2x.jpg","images/portfolio/img/3@2x.jpg","images/portfolio/img/4@2x.jpg","images/portfolio/img/5@2x.jpg","images/portfolio/img/6@2x.jpg"]
+	},
+	"3" : {
+		"title" : "Wonder Wharf Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Stereos",
+		"url" : "",
+		"photos" : ["images/portfolio/img/3@2x.jpg","images/portfolio/img/4@2x.jpg","images/portfolio/img/5@2x.jpg","images/portfolio/img/6@2x.jpg","images/portfolio/img/7@2x.jpg"]
+	},
+	"4" : {
+		"title" : "Personal Identity Design",
+		"description" : "<p>Clean and bright mock-up to showcase your projects in a very realistic and professional way.</p><p> The best way to present your design and impress your client.</p>",
+		"client" : "Mock Cup",
+		"url" : "",
+		"photos" : ["images/portfolio/img/4@2x.jpg","images/portfolio/img/5@2x.jpg","images/portfolio/img/6@2x.jpg","images/portfolio/img/7@2x.jpg","images/portfolio/img/8@2x.jpg"]
+	},
+	"5" : {
+		"title" : "Montea Travel Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Red Line",
+		"url" : "",
+		"photos" : ["images/portfolio/img/5@2x.jpg","images/portfolio/img/6@2x.jpg","images/portfolio/img/6@2x.jpg","images/portfolio/img/7@2x.jpg","images/portfolio/img/8@2x.jpg"]
+	},
+	"6" : {
+		"title" : "Business Card Mock-up",
+		"description" : "<p>Clean and bright mock-up to showcase your projects in a very realistic and professional way.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Erick Malvin",
+		"url" : "",
+		"photos" : ["images/portfolio/img/6@2x.jpg","images/portfolio/img/7@2x.jpg","images/portfolio/img/8@2x.jpg","images/portfolio/img/9@2x.jpg","images/portfolio/img/10@2x.jpg"]
+	},
+	"7" : {
+		"title" : "Chinese Restaurant Logo",
+		"description" : "<p>Creative logo, that will perfectly fit the requirements of successful business.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Mock-Up Book",
+		"url" : "",
+		"photos" : ["images/portfolio/img/7@2x.jpg","images/portfolio/img/8@2x.jpg","images/portfolio/img/9@2x.jpg","images/portfolio/img/10@2x.jpg","images/portfolio/img/11@2x.jpg"]
+	},
+	"8" : {
+		"title" : "Novelist Agency Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Mock-Up",
+		"url" : "awdawdawdaw",
+		"photos" : ["images/portfolio/img/8@2x.jpg","images/portfolio/img/9@2x.jpg","images/portfolio/img/10@2x.jpg","images/portfolio/img/11@2x.jpg","images/portfolio/img/12@2x.jpg"]
+	},
+	"9" : {
+		"title" : "Fox Real Estate Agency",
+		"description" : "<p>Effective website that will perfectly fit the requirements of successful business. The best way to present your design and impress your client.</p>",
+		"client" : "Cupboard",
+		"url" : "",
+		"photos" : ["images/portfolio/img/9@2x.jpg","images/portfolio/img/10@2x.jpg","images/portfolio/img/11@2x.jpg","images/portfolio/img/12@2x.jpg","images/portfolio/img/13@2x.jpg"]
+	},
+	"10" : {
+		"title" : "Pearl Jewelry Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Magazine",
+		"url" : "",
+		"photos" : ["images/portfolio/img/10@2x.jpg","images/portfolio/img/11@2x.jpg","images/portfolio/img/12@2x.jpg","images/portfolio/img/13@2x.jpg","images/portfolio/img/14@2x.jpg"]
+	},
+	"11" : {
+		"title" : "FAZENDO A DIFERNÇA",
+		"description" : "<p>Uma estimulante palestra que esclarece como ser e fazer a Diferença na Educação de seu filho.</p>",
+		"client" : "https://www.youtube.com/watch?v=W1xBhxSgWl0",
+		"url" : "",
+		"photos" : ["images/portfolio/img/33@2x.jpg"]
+	},
+	"12" : {
+		"title" : "Innovative Eco-design",
+		"description" : "<p>Bright eco-design to showcase your projects in a very realistic and professional way.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Georg Shnider",
+		"url" : "",
+		"photos" : ["images/portfolio/img/12@2x.jpg","images/portfolio/img/13@2x.jpg","images/portfolio/img/14@2x.jpg","images/portfolio/img/15@2x.jpg","images/portfolio/img/16@2x.jpg"]
+	},
+	"13" : {
+		"title" : "Wonder Wharf Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Stereos",
+		"url" : "",
+		"photos" : ["images/portfolio/img/13@2x.jpg","images/portfolio/img/14@2x.jpg","images/portfolio/img/15@2x.jpg","images/portfolio/img/16@2x.jpg","images/portfolio/img/17@2x.jpg"]
+	},
+	"14" : {
+		"title" : "Personal Identity Design",
+		"description" : "<p>Clean and bright mock-up to showcase your projects in a very realistic and professional way.</p><p> The best way to present your design and impress your client.</p>",
+		"client" : "Mock Cup",
+		"url" : "",
+		"photos" : ["images/portfolio/img/14@2x.jpg","images/portfolio/img/15@2x.jpg","images/portfolio/img/16@2x.jpg","images/portfolio/img/17@2x.jpg","images/portfolio/img/18@2x.jpg"]
+	},
+	"15" : {
+		"title" : "Montea Travel Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Red Line",
+		"url" : "",
+		"photos" : ["images/portfolio/img/15@2x.jpg","images/portfolio/img/16@2x.jpg","images/portfolio/img/17@2x.jpg","images/portfolio/img/18@2x.jpg","images/portfolio/img/19@2x.jpg"]
+	},
+	"16" : {
+		"title" : "Business Card Mock-up",
+		"description" : "<p>Clean and bright mock-up to showcase your projects in a very realistic and professional way.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Erick Malvin",
+		"url" : "",
+		"photos" : ["images/portfolio/img/16@2x.jpg","images/portfolio/img/17@2x.jpg","images/portfolio/img/18@2x.jpg","images/portfolio/img/18@2x.jpg","images/portfolio/img/19@2x.jpg"]
+	},
+	"17" : {
+		"title" : "Chinese Restaurant Logo",
+		"description" : "<p>Creative logo, that will perfectly fit the requirements of successful business.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Mock-Up Book",
+		"url" : "",
+		"photos" : ["images/portfolio/img/17@2x.jpg","images/portfolio/img/18@2x.jpg","images/portfolio/img/19@2x.jpg","images/portfolio/img/20@2x.jpg","images/portfolio/img/21@2x.jpg"]
+	},
+	"18" : {
+		"title" : "Novelist Agency Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Mock-Up",
+		"url" : "awdawdawdaw",
+		"photos" : ["images/portfolio/img/18@2x.jpg","images/portfolio/img/19@2x.jpg","images/portfolio/img/20@2x.jpg","images/portfolio/img/21@2x.jpg","images/portfolio/img/22@2x.jpg"]
+	},
+	"19" : {
+		"title" : "Fox Real Estate Agency",
+		"description" : "<p>Effective website that will perfectly fit the requirements of successful business. The best way to present your design and impress your client.</p>",
+		"client" : "Cupboard",
+		"url" : "",
+		"photos" : ["images/portfolio/img/19@2x.jpg","images/portfolio/img/20@2x.jpg","images/portfolio/img/21@2x.jpg","images/portfolio/img/22@2x.jpg","images/portfolio/img/23@2x.jpg"]
+	},
+	"20" : {
+		"title" : "Pearl Jewelry Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Magazine",
+		"url" : "",
+		"photos" : ["images/portfolio/img/20@2x.jpg","images/portfolio/img/21@2x.jpg","images/portfolio/img/22@2x.jpg","images/portfolio/img/23@2x.jpg","images/portfolio/img/24@2x.jpg"]
+	},
+	"21" : {
+		"title" : "FAZENDO A DIFERNÇA",
+		"description" : "<p>Uma estimulante palestra que esclarece como ser e fazer a Diferença na Educação de seu filho.</p>",
+		"client" : "Palestra",
+		"url" : "",
+		"photos" : ["images/portfolio/img/33@2x.jpg"]
+	},
+	"22" : {
+		"title" : "Innovative Eco-design",
+		"description" : "<p>Bright eco-design to showcase your projects in a very realistic and professional way.</p><p>The best way to present your design and impress your client.</p>",
+		"client" : "Georg Shnider",
+		"url" : "",
+		"photos" : ["images/portfolio/img/22@2x.jpg","images/portfolio/img/23@2x.jpg","images/portfolio/img/24@2x.jpg","images/portfolio/img/1@2x.jpg","images/portfolio/img/2@2x.jpg"]
+	},
+	"23" : {
+		"title" : "Wonder Wharf Website",
+		"description" : "<p>While developing the website, we focused on profitable presentation of company services, which are clearly displayed in the site menu.</p>",
+		"client" : "Stereos",
+		"url" : "",
+		"photos" : ["images/portfolio/img/23@2x.jpg","images/portfolio/img/24@2x.jpg","images/portfolio/img/1@2x.jpg","images/portfolio/img/2@2x.jpg","images/portfolio/img/3@2x.jpg"]
+	},
+	"24" : {
+		"title" : "Personal Identity Design",
+		"description" : "<p>Clean and bright mock-up to showcase your projects in a very realistic and professional way.</p><p> The best way to present your design and impress your client.</p>",
+		"client" : "Mock Cup",
+		"url" : "",
+		"photos" : ["images/portfolio/img/24@2x.jpg","images/portfolio/img/1@2x.jpg","images/portfolio/img/2@2x.jpg","images/portfolio/img/3@2x.jpg","images/portfolio/img/4@2x.jpg"]
+	}
+}

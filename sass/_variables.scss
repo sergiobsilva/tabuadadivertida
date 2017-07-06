@@ -1,0 +1,72 @@
+$myRed: #cd3333;
+$lightcolor: #fffdec;
+$whitecolor: #fff;
+$bluelightcolor: #e4e7e8;
+$bllightcolor: #f0ffff;
+$pilightcolor: #fff1f1;
+$darkcolor: #333333;
+$darkcolortext: #45443a;
+
+// $myRed: #fffff0;
+// $myredtext: #cc0000;
+// $lightcolor: #fff;
+// $darklightcolor: #000;
+// $bluelightcolor: #e4e7e8;
+// $bllightcolor: #f0ffff;
+// $pilightcolor: #fff1f1;
+// $darkcolor: #fff;
+// $darkcolortext: #45443a;
+
+
+// Helper mixins
+@mixin opacity($o) {
+  $IEValue: $o * 100;
+  opacity: $o;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+      filter: alpha(opacity=$IEValue);
+}
+
+@mixin border-radius($r) {
+  -webkit-border-radius: $r;
+     -moz-border-radius: $r;
+      -ms-border-radius: $r;
+          border-radius: $r;
+}
+
+@mixin transition($transition1: 0.1s){
+  -webkit-transition: all $transition1 ease-in-out $transition1;
+  -moz-transition: all $transition1 ease-in-out $transition1;
+  -o-transition: all $transition1 ease-in-out $transition1;
+  transition: all $transition1 ease-in-out $transition1;
+}
+
+$main-font-size:14px;
+
+@mixin rem($property, $values) {
+  $font-size: $main-font-size;
+  $px-values: ();
+  $rem-values: ();
+
+  @each $value in $values {
+    @if $value == 0 or $value == 0px {
+      $px-values: join($px-values, 0);
+      $rem-values: join($rem-values, 0);
+    } @else if type-of($value) == number and not unitless($value) and (unit($value) == px) {
+      $new-rem-value: $value / $font-size;
+      $px-values: join($px-values, round($value));
+      $rem-values: join($rem-values, #{$new-rem-value}rem);
+    } @else if type-of($value) == number and not unitless($value) and (unit($value) == "%") {
+      $px-values: join($px-values, #{$value});
+      $rem-values: join($rem-values, #{$value});
+    } @else if $value == auto {
+      $px-values: join($px-values, auto);
+      $rem-values: join($rem-values, auto);
+    } @else {
+      $px-values: join($px-values, round($value * $font-size));
+      $rem-values: join($rem-values, #{$value}rem);
+    }
+  }
+
+  #{$property}: $px-values;
+  #{$property}: $rem-values;
+}

@@ -1,0 +1,270 @@
+$myColor: #02b26a;
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+	@media (max-width: 767px) {
+		background: #bbb;
+	}
+}
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+#header.top-menu {
+	background-color: #fff;
+}
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: $myColor;
+	@media (max-width: 992px) {
+		color: #fff;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+.menu-sidebar .widget-box > div ul li a, .menu-sidebar .widget-box > div ul li i {
+	@media(max-width:767px){
+		color: #bbb!important;
+	}
+}
+.top-nav-line #menu-open {
+	background: #fff;
+}
+.top-nav-line #menu-open .text {
+	color: $myColor;
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+.top-menu .widget-box > div ul li a, 
+.top-menu .widget-box > div ul li i {
+	color: #eb8f00 !important;
+}
+
+.logo-mini  {
+	padding: 4px;
+	margin: 20px 0 0 20px;
+	background: #fff;
+	@media(max-width:991px){
+		margin: 0;
+	}
+	svg {
+		* {
+			fill: $myColor!important;	
+		}
+	}
+}
+
+.menu-sidebar .header-box > div ul li a, 
+.menu-sidebar .header-box > div ul li a i {
+	color: #bbbbbb!important;
+	@media(max-width:767px){
+		color: #bbbbbb!important;
+	}
+		&:after {
+			background:  #bbbbbb;	
+	}
+}
+/*Primary
+---------------------------------------------*/
+.primary-banner h1 {
+	margin-bottom: 30px;
+}
+.primary-banner p.tlt {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 30px;
+	@media(max-width:767px){
+		font-size: 18px;
+	}
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+#about-us .table-block h1,
+#about-us h5{
+	color: $myColor;
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+.sample-3 {
+	span {
+		color: $myColor;
+	}
+	.btn-default.red-style {
+		background: $myColor;
+		&:hover,
+		&.button-hover {
+			background: darken($myColor, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($myColor, 7%); 
+			box-shadow: inset 0 2px 0px darken($myColor, 8%); ;
+		}
+	}
+}
+
+/* portfolio
+------------------------------------------------------------------------------------*/
+.portfolio .isotop-filters{
+	opacity: .95;
+	background:$myColor;
+}
+.sliders .container-fluid .a-slider-tcontrols{
+	background:$myColor;
+}
+.sliders .container-fluid .a-slider-tcontrols a{
+	color:#fff;
+}
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name{
+	color:$myColor;
+}
+
+.portfolio .element-item:focus .overlay, 
+.portfolio .element-item:active .overlay, 
+.portfolio .element-item:hover .overlay{
+	opacity: .8;
+	background:$myColor;
+}
+.portfolio .isotope h3 span{
+	color:#fff;
+}
+
+.sliders .container-fluid .additional-info .link a{
+	background:$myColor;
+}
+.sliders .container-fluid .additional-info .link a:hover {
+	opacity: .9;
+  background:$myColor;
+}
+
+.portfolio .element-item .overlay .p-target path{
+	fill:#fff;
+}
+
+/*.client-carousel
+------------------------------------------------------------------------------------*/
+.client-carousel h5,
+.client-carousel span{
+	color:#fff;
+}
+.client-carousel h5:after {
+  background: rgba(255, 255, 255, 0.75);
+}
+.cl-thumbs-wrapper .cl-prev,
+.cl-thumbs-wrapper .cl-next{
+	color: rgba(255, 255, 255, 0.6);
+}
+.cl-thumbs-wrapper .cl-prev:hover,
+.cl-thumbs-wrapper .cl-next:hover {
+  color: #FFFFFF;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/*contact
+------------------------------------------------------------------------------------*/
+#contact .table-box h1 {
+	color: rgba(2, 178, 106, .9);
+}
+input[type="text"].white-style, input[type="email"].white-style, 
+input[type="password"].white-style, input[type="name"].white-style{
+	background: rgba(255, 255, 255, .2);
+	box-shadow: inset 0 1px 0px $myColor;
+}
+textarea.white-style{
+	background: rgba(255, 255, 255, .2);
+	box-shadow: inset 0 1px 0px $myColor;
+}
+.btn-default.white-style {
+	color: $myColor;
+}
+textarea.white-style:focus{
+	box-shadow: inset 0 1px 0px $myColor;
+}
+
+/*animation
+----------------------------------------------------------------------------------*/
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+	animation-duration: 25s;	
+	-webkit-animation-duration: 25s;
+	-webkit-animation-timing-function: ease-in-out; /* Chrome, Safari, Opera */
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+	0% {
+		transform: scale(0.9) rotate(0deg);
+	}
+	50% {
+		transform: scale(1) rotate(5deg);
+	}	
+	100% {
+		transform: scale(0.9) rotate(0deg);
+	}			
+}
+
+@-webkit-keyframes pulse{
+	0% {
+		-webkit-transform: scale(0.95), rotate(0deg);
+	}
+	50% {
+		-webkit-transform: scale(1), rotate(5deg);
+	}	
+	100% {
+		-webkit-transform: scale(0.95), rotate(0deg);
+	}			
+}
+
+/* Team
+-----------------------------------------------------------------*/
+#thumbs-wrapper #thumbs a:hover span, 
+#thumbs-wrapper #thumbs a.selected span, 
+#thumbs-wrapper #thumbs a:focus span {
+  border-color: rgba(238, 239, 238, 0.57);
+}

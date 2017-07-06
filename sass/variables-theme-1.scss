@@ -1,0 +1,97 @@
+$myColor: #cd3333;
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+	@media (max-width: 767px) {
+		background: #bbb;
+	}
+}
+
+#header.top-menu {
+	background-color: #000;
+}
+
+.top-menu .navbar nav ul li a,
+.top-menu .navbar nav ul li a i {
+	color: $myColor!important;
+}
+.top-menu .navbar nav ul li.parent li a,
+.top-menu .navbar nav ul li.parent li a i {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu .navbar nav ul li a,
+.top-menu .minimized-menu  .navbar nav ul li a i,
+.top-menu .transform-menu .navbar nav ul li a,
+.top-menu .transform-menu  .navbar nav ul li a i  {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:after,
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:after {
+	background: #bbbbbb!important;
+}
+
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: #bbb;
+	@media (max-width: 992px) {
+		color: #bbb;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+.transform-menu a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+.top-nav-line #menu-open {
+	background: #fff;
+}
+.top-nav-line #menu-open .text {
+	color: $myColor;
+}
+.primary-banner h1 {
+	color: #fff;
+	font-size: 120px;
+}

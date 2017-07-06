@@ -1,0 +1,591 @@
+@media (min-width: 1200px) {
+  /* line 9, ../sass/promo.scss */
+  body.promo .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 18, ../sass/promo.scss */
+  body.promo .container {
+    width: 970px;
+  }
+}
+/* line 25, ../sass/promo.scss */
+main {
+  z-index: 1;
+}
+
+/*promo-page
+----------------------------------------------*/
+/* line 31, ../sass/promo.scss */
+.promo-page {
+  position: relative;
+  z-index: 3;
+  margin-top: 40px;
+}
+
+/* Header 
+-----------------------------------------------*/
+/* line 41, ../sass/promo.scss */
+.promo-header .header-soc-icon li:last-of-type a {
+  margin-right: 8px;
+}
+/* line 44, ../sass/promo.scss */
+.promo-header .header {
+  position: fixed;
+}
+
+/* main-promo-page
+----------------------------------------------*/
+/* line 51, ../sass/promo.scss */
+.maim-promo-page {
+  margin-top: 170px;
+}
+
+/* line 55, ../sass/promo.scss */
+.primary-banner {
+  height: 540px;
+}
+@media (max-width: 767px) {
+  /* line 55, ../sass/promo.scss */
+  .primary-banner {
+    height: 230px;
+  }
+  /* line 59, ../sass/promo.scss */
+  .primary-banner p {
+    margin-bottom: 0;
+  }
+}
+
+/* social menu
+-----------------------------------------------*/
+@media (max-width: 767px) {
+  /* line 68, ../sass/promo.scss */
+  .top-menu .header-soc-icon {
+    width: 100%;
+    border: none;
+  }
+}
+/* promo-semples 
+---------------------------------------------*/
+/* line 76, ../sass/promo.scss */
+.promo-semples {
+  margin-top: 25px;
+  padding-top: 80px;
+}
+/* line 80, ../sass/promo.scss */
+.promo-semples h4 {
+  color: rgba(205, 51, 51, 0.9);
+}
+
+/* line 84, ../sass/promo.scss */
+.box-promo-semple {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+/* line 87, ../sass/promo.scss */
+.box-promo-semple:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 91, ../sass/promo.scss */
+.promo-row {
+  margin-bottom: 100px;
+}
+
+/**/
+/* Common style DEMO */
+/* line 98, ../sass/promo.scss */
+figure {
+  background: #000;
+  cursor: pointer;
+  float: left;
+  max-height: 360px;
+  max-width: 480px;
+  min-width: 290px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+}
+/* line 110, ../sass/promo.scss */
+figure img {
+  display: block;
+  margin-bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  position: relative;
+}
+/* line 119, ../sass/promo.scss */
+figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* line 127, ../sass/promo.scss */
+figure figcaption::before, figure figcaption::after {
+  pointer-events: none;
+}
+/* line 133, ../sass/promo.scss */
+figure figcaption,
+figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/* line 147, ../sass/promo.scss */
+figure figcaption > a {
+  z-index: 3;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  background: #eee;
+  display: block;
+}
+/* line 156, ../sass/promo.scss */
+figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+/* line 160, ../sass/promo.scss */
+figure h2 span {
+  font-weight: 800;
+}
+/* line 164, ../sass/promo.scss */
+figure h2, figure p {
+  margin: 0;
+}
+/* line 168, ../sass/promo.scss */
+figure p {
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #fffdec;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 174, ../sass/promo.scss */
+figure p span {
+  font-weight: 700;
+  color: #cd3333;
+}
+
+/*---------------*/
+/***** Chico effect *****/
+/*---------------*/
+/* line 190, ../sass/promo.scss */
+figure.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+/* line 196, ../sass/promo.scss */
+figure.effect-chico figcaption {
+  padding: 3em 2em;
+}
+/* line 199, ../sass/promo.scss */
+figure.effect-chico figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* line 212, ../sass/promo.scss */
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+/* line 218, ../sass/promo.scss */
+figure.effect-chico h2 {
+  padding: 20% 0 20px 0;
+}
+/* line 222, ../sass/promo.scss */
+figure.effect-chico p {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 24%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+/* line 231, ../sass/promo.scss */
+figure.effect-chico:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/* line 238, ../sass/promo.scss */
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+  /* line 251, ../sass/promo.scss */
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* line 255, ../sass/promo.scss */
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+/* features
+---------------------------------------------*/
+/* line 268, ../sass/promo.scss */
+.features {
+  padding-top: 59px;
+}
+/* line 271, ../sass/promo.scss */
+.features h5 {
+  color: #cd3333;
+}
+/* line 275, ../sass/promo.scss */
+.features .features-icon {
+  background-repeat: no-repeat;
+  background: url(../images/promo/icons.svg);
+  height: 50px;
+  margin: 45px auto;
+  overflow: hidden;
+  width: 50px;
+}
+/* line 282, ../sass/promo.scss */
+.features .features-icon.icon-1 {
+  background-position: center -45px;
+}
+/* line 285, ../sass/promo.scss */
+.features .features-icon.icon-2 {
+  background-position: center -170px;
+}
+/* line 288, ../sass/promo.scss */
+.features .features-icon.icon-3 {
+  background-position: center -325px;
+}
+/* line 292, ../sass/promo.scss */
+.features .features-text {
+  padding-left: 13px;
+}
+/* line 295, ../sass/promo.scss */
+.features h6 {
+  margin-bottom: 9px;
+  margin-top: 13px;
+}
+/* line 300, ../sass/promo.scss */
+.features p {
+  margin-bottom: 30px;
+  max-width: 590px;
+}
+
+/* promo-about
+---------------------------------------------*/
+/* line 308, ../sass/promo.scss */
+.promo-about {
+  padding-top: 70px;
+  text-align: center;
+}
+/* line 315, ../sass/promo.scss */
+.promo-about p {
+  margin-bottom: 40px;
+  padding: 0 30px;
+}
+
+/* line 320, ../sass/promo.scss */
+.wrap-promo-about-ico {
+  height: 70px;
+  margin: 0 auto 20px;
+  width: 70px;
+}
+
+/* line 325, ../sass/promo.scss */
+.promo-about-ico {
+  border-radius: 50%;
+  border: 2px solid #cd3333;
+  color: #cd3333;
+  display: table-cell;
+  font-size: 1.6em;
+  height: 70px;
+  vertical-align: middle;
+  width: 70px;
+}
+
+/* another-links
+---------------------------------------------*/
+/* line 338, ../sass/promo.scss */
+.another-links {
+  margin-bottom: 140px;
+  margin-top: 50px;
+}
+/* line 341, ../sass/promo.scss */
+.another-links ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+/* line 345, ../sass/promo.scss */
+.another-links ul li {
+  display: inline-block;
+  margin: 0 -6px 0 0;
+}
+/* line 349, ../sass/promo.scss */
+.another-links ul li a {
+  border-right: none;
+  border: 2px solid #cd3333;
+  color: #cd3333;
+  padding: 11px 21px;
+  text-transform: uppercase;
+  transition: color linear 0.1s;
+}
+/* line 356, ../sass/promo.scss */
+.another-links ul li a:last-of-type {
+  border: 2px solid #cd3333;
+}
+/* line 360, ../sass/promo.scss */
+.another-links ul li a.current, .another-links ul li a:hover {
+  color: rgba(205, 51, 51, 0.8);
+  text-decoration: none;
+}
+
+/* footer
+---------------------------------------------*/
+/* line 371, ../sass/promo.scss */
+footer {
+  text-align: center;
+}
+
+/* line 375, ../sass/promo.scss */
+.promo-social ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 378, ../sass/promo.scss */
+.promo-social ul li {
+  display: inline-block;
+  padding: 0 8px;
+}
+/* line 381, ../sass/promo.scss */
+.promo-social ul li a {
+  color: #cd3333;
+  transition: color linear 0.1s;
+}
+/* line 384, ../sass/promo.scss */
+.promo-social ul li a:hover {
+  color: rgba(205, 51, 51, 0.8);
+}
+
+/* line 392, ../sass/promo.scss */
+.promo-suppport-link p {
+  margin-bottom: 0;
+}
+/* line 394, ../sass/promo.scss */
+.promo-suppport-link p a {
+  color: #cd3333;
+  transition: color linear 0.1s;
+}
+/* line 397, ../sass/promo.scss */
+.promo-suppport-link p a:hover {
+  color: rgba(205, 51, 51, 0.8);
+  text-decoration: none;
+}
+
+/* line 404, ../sass/promo.scss */
+.promo-corp {
+  padding-bottom: 25px;
+}
+
+/* line 408, ../sass/promo.scss */
+.promo-footer-logo {
+  margin: 0 auto 20px;
+  width: 70px;
+}
+/* line 411, ../sass/promo.scss */
+.promo-footer-logo img {
+  height: auto;
+  width: 100%;
+}
+
+/*--------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  /* line 420, ../sass/promo.scss */
+  .promo .portfolio .isotop-filters {
+    padding-bottom: 0;
+    width: 100% !important;
+  }
+  /* line 424, ../sass/promo.scss */
+  .promo .portfolio .table-block {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  /* line 428, ../sass/promo.scss */
+  .promo .portfolio .table-block h1 {
+    font-size: 150px;
+    font-size: 10.71429rem;
+    line-height: 1.2;
+  }
+}
+/* line 433, ../sass/promo.scss */
+.promo .portfolio .element-item a {
+  opacity: 1;
+}
+/* line 436, ../sass/promo.scss */
+.promo .portfolio .isotope h3 {
+  font-size: 24px;
+}
+/* line 440, ../sass/promo.scss */
+.promo .portfolio .isotop-filters.hide-panel {
+  left: 0;
+}
+/* line 444, ../sass/promo.scss */
+.promo .demo-title-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f0eed9;
+  text-align: center;
+}
+/* line 452, ../sass/promo.scss */
+.promo .demo-title-box .inner-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+/* line 456, ../sass/promo.scss */
+.promo .demo-title-box .inner-table .title-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 461, ../sass/promo.scss */
+.promo .demo-title-box h1 {
+  color: #cd3333;
+  line-height: 1;
+  margin-bottom: 0;
+  font-size: 150px;
+  font-size: 10.71429rem;
+}
+/* line 467, ../sass/promo.scss */
+.promo .demo-title-box h1 span {
+  font-size: 35px;
+  font-size: 2.5rem;
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  /* line 461, ../sass/promo.scss */
+  .promo .demo-title-box h1 {
+    line-height: 0.8;
+    font-size: 120px;
+    font-size: 8.57143rem;
+  }
+}
+@media (max-width: 991px) {
+  /* line 461, ../sass/promo.scss */
+  .promo .demo-title-box h1 {
+    line-height: 0.7;
+    font-size: 130px;
+    font-size: 9.28571rem;
+  }
+}
+@media (max-width: 767px) {
+  /* line 461, ../sass/promo.scss */
+  .promo .demo-title-box h1 {
+    line-height: 0.9;
+    font-size: 100px;
+    font-size: 7.14286rem;
+  }
+}
+
+/* line 487, ../sass/promo.scss */
+.element-item:focus .overlay, .element-item:active .overlay, .element-item:hover .overlay {
+  background: rgba(205, 51, 51, 0.5);
+}
+
+/* line 490, ../sass/promo.scss */
+.element-item .overlay .p-target path {
+  fill: #fff;
+}
+
+/* line 494, ../sass/promo.scss */
+.element-item {
+  width: 33.33%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 494, ../sass/promo.scss */
+  .element-item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 494, ../sass/promo.scss */
+  .element-item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 506, ../sass/promo.scss */
+  .firefox .portfolio .element-item {
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 511, ../sass/promo.scss */
+  .firefox .portfolio .element-item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 516, ../sass/promo.scss */
+  .firefox .portfolio .element-item {
+    width: 100%;
+  }
+}
+
+/* line 522, ../sass/promo.scss */
+.element-item .overlay .p-target {
+  margin-top: 24%;
+}
+@media (max-width: 991px) {
+  /* line 522, ../sass/promo.scss */
+  .element-item .overlay .p-target {
+    margin-top: 22%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 522, ../sass/promo.scss */
+  .element-item .overlay .p-target {
+    margin-top: 24%;
+  }
+}
+
+/* futures
+-----------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 534, ../sass/promo.scss */
+  .small-icon .small-icon-box {
+    min-height: 335px;
+    overflow: hidden;
+  }
+}

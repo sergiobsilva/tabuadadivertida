@@ -1,0 +1,386 @@
+/* line 3, ../sass/variables-theme-color-8.scss */
+a.default-hovered:after {
+  background: #362e36;
+}
+
+/* line 6, ../sass/variables-theme-color-8.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #362e36;
+  opacity: 0.8;
+}
+
+/* line 12, ../sass/variables-theme-color-8.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text,
+.header.minimized-menu .primary .navbar .btn-navbar .text {
+  color: #362e36;
+}
+
+/* line 18, ../sass/variables-theme-color-8.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+  background-color: #fff;
+}
+
+/* line 23, ../sass/variables-theme-color-8.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #362e36;
+}
+/* line 25, ../sass/variables-theme-color-8.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #362e36;
+}
+
+/* line 29, ../sass/variables-theme-color-8.scss */
+.top-nav-line #menu-open {
+  background: transparent;
+}
+
+/* line 32, ../sass/variables-theme-color-8.scss */
+.top-nav-line #menu-open .text {
+  color: #fff;
+}
+
+/* line 35, ../sass/variables-theme-color-8.scss */
+a.default-hovered:focus:after {
+  background: #362e36;
+}
+
+/* line 40, ../sass/variables-theme-color-8.scss */
+.menu-sidebar .header-box > div ul li a,
+.menu-sidebar .header-box > div ul li a i {
+  color: #bbbbbb !important;
+}
+@media (max-width: 767px) {
+  /* line 40, ../sass/variables-theme-color-8.scss */
+  .menu-sidebar .header-box > div ul li a,
+  .menu-sidebar .header-box > div ul li a i {
+    color: #bbbbbb !important;
+  }
+}
+/* line 45, ../sass/variables-theme-color-8.scss */
+.menu-sidebar .header-box > div ul li a:after,
+.menu-sidebar .header-box > div ul li a i:after {
+  background: #bbbbbb;
+}
+
+/* line 49, ../sass/variables-theme-color-8.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+  border: 1px solid #362e36;
+}
+
+/* line 53, ../sass/variables-theme-color-8.scss */
+.logo-mini {
+  padding: 4px;
+  margin: 26px 0 0 26px;
+}
+@media (max-width: 991px) {
+  /* line 53, ../sass/variables-theme-color-8.scss */
+  .logo-mini {
+    margin: 6px;
+  }
+}
+/* line 60, ../sass/variables-theme-color-8.scss */
+.logo-mini svg * {
+  fill: white !important;
+}
+
+/* line 67, ../sass/variables-theme-color-8.scss */
+.primary-banner-center-box button {
+  background: #3598db;
+}
+/* line 70, ../sass/variables-theme-color-8.scss */
+.primary-banner-center-box .btn-default:hover, .primary-banner-center-box .btn-default.button-hover, .primary-banner-center-box .btn-default:active, .primary-banner-center-box .btn-default:focus, .primary-banner-center-box .btn-default:active:focus, .primary-banner-center-box .btn-default.button-active {
+  box-shadow: inset 0 2px 0px #0D83D3;
+  background: #0D83D3;
+}
+
+/* line 75, ../sass/variables-theme-color-8.scss */
+.primary-banner h1 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* line 79, ../sass/variables-theme-color-8.scss */
+.primary-banner-center-box > .container-fluid > .row {
+  width: 100%;
+}
+
+/* line 83, ../sass/variables-theme-color-8.scss */
+.primary-banner .col-sm-4 {
+  display: table;
+  height: 100%;
+  padding: 0;
+}
+/* line 87, ../sass/variables-theme-color-8.scss */
+.primary-banner .col-sm-4 .layer {
+  height: 100%;
+  left: -1px;
+  position: absolute;
+  width: 101%;
+}
+/* line 93, ../sass/variables-theme-color-8.scss */
+.primary-banner .col-sm-4 .wrap-title {
+  display: table-cell;
+  max-width: 280px;
+  vertical-align: middle;
+}
+/* line 97, ../sass/variables-theme-color-8.scss */
+.primary-banner .col-sm-4 .wrap-title h1 {
+  line-height: 0.7;
+  font-size: 70px;
+}
+
+@media (min-width: 768px) {
+  /* line 106, ../sass/variables-theme-color-8.scss */
+  .ie10 .primary-banner-center-box > .container-fluid > .row > div, .ie11 .primary-banner-center-box > .container-fluid > .row > div {
+    height: 100vh;
+  }
+}
+/* menu soc & languages
+------------------------------------------------------------------------------------*/
+/* line 114, ../sass/variables-theme-color-8.scss */
+.top-nav-line.fixed #menu-open .text {
+  color: #362e36;
+}
+
+/* line 117, ../sass/variables-theme-color-8.scss */
+.top-nav-line.fixed #menu-open .icon-bar {
+  background: #362e36;
+}
+
+/* line 121, ../sass/variables-theme-color-8.scss */
+.header-soc-icon ul li a,
+.menu-sidebar #languages ul li a {
+  color: #bbbbbb;
+}
+/* line 123, ../sass/variables-theme-color-8.scss */
+.header-soc-icon ul li a:after,
+.menu-sidebar #languages ul li a:after {
+  background: #bbbbbb;
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+/* line 132, ../sass/variables-theme-color-8.scss */
+#about-us .table-block h1,
+#about-us h5 {
+  color: #362e36;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+/* line 139, ../sass/variables-theme-color-8.scss */
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i {
+  color: #362e36;
+}
+
+/*Services*/
+/* line 143, ../sass/variables-theme-color-8.scss */
+a:hover, a:active, a:focus {
+  color: #362e36;
+}
+
+/* line 146, ../sass/variables-theme-color-8.scss */
+.red-color {
+  color: #362e36;
+}
+
+/* line 149, ../sass/variables-theme-color-8.scss */
+.services h3:after {
+  background: #362e36;
+}
+
+/* line 153, ../sass/variables-theme-color-8.scss */
+.like-theme .purcase-now a .icon-box:before,
+.like-theme .purcase-now a .icon-box:after {
+  background: #362e36;
+}
+
+/* like-theme
+------------------------------------------------------------------------------------*/
+/* line 158, ../sass/variables-theme-color-8.scss */
+.like-theme .purcase-now a {
+  color: #362e36;
+}
+/* line 160, ../sass/variables-theme-color-8.scss */
+.like-theme .purcase-now a:hover {
+  color: #524552;
+}
+
+/* Price
+------------------------------------------------------------------------------------*/
+/* line 168, ../sass/variables-theme-color-8.scss */
+#price .table-block h1,
+#price h5 {
+  color: #362e36;
+}
+
+/* line 174, ../sass/variables-theme-color-8.scss */
+.pricing-box.start .background .layer {
+  background-color: #362e36 !important;
+}
+/* line 177, ../sass/variables-theme-color-8.scss */
+.pricing-box.start .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #362e36;
+}
+/* line 183, ../sass/variables-theme-color-8.scss */
+.pricing-box.optima .background .layer {
+  background-color: #362e36 !important;
+  background-color: #2e272e !important;
+}
+/* line 187, ../sass/variables-theme-color-8.scss */
+.pricing-box.optima .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #362e36;
+}
+/* line 193, ../sass/variables-theme-color-8.scss */
+.pricing-box.vip .background .layer {
+  background-color: #362e36 !important;
+  background-color: #252025 !important;
+}
+/* line 197, ../sass/variables-theme-color-8.scss */
+.pricing-box.vip .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #362e36;
+}
+
+/* line 204, ../sass/variables-theme-color-8.scss */
+.pricing-box ul li .price {
+  color: #fff;
+}
+
+/* line 207, ../sass/variables-theme-color-8.scss */
+.pricing-box a.btn-default {
+  color: #362e36;
+}
+/* line 209, ../sass/variables-theme-color-8.scss */
+.pricing-box a.btn-default:active, .pricing-box a.btn-default:focus, .pricing-box a.btn-default:active:focus {
+  color: #282228;
+}
+
+/*Faq
+-----------------------------------------------------------------------*/
+/* line 216, ../sass/variables-theme-color-8.scss */
+.faq .tab-content h5, .faq .tab-content h6 {
+  color: #362e36;
+}
+
+/* line 219, ../sass/variables-theme-color-8.scss */
+.faq h1 {
+  color: #362e36;
+}
+
+/* line 222, ../sass/variables-theme-color-8.scss */
+.faq h5.nav-tabs-title {
+  color: #fff;
+}
+
+/* line 225, ../sass/variables-theme-color-8.scss */
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:hover, .faq .nav-tabs > li.active > a:focus {
+  color: #bbbbbb !important;
+}
+
+/* dividing-block
+-----------------------------------------------------------------------*/
+/* line 232, ../sass/variables-theme-color-8.scss */
+.dividing-block .btn.btn-default {
+  background: #362e36;
+  background: #5f515f;
+}
+/* line 235, ../sass/variables-theme-color-8.scss */
+.dividing-block .btn.btn-default:active, .dividing-block .btn.btn-default:focus, .dividing-block .btn.btn-default:active:focus, .dividing-block .btn.btn-default:hover {
+  background: #2e272e;
+}
+/* line 239, ../sass/variables-theme-color-8.scss */
+.dividing-block .btn.btn-default.red-style {
+  background: #362e36;
+}
+/* line 241, ../sass/variables-theme-color-8.scss */
+.dividing-block .btn.btn-default.red-style:active, .dividing-block .btn.btn-default.red-style:focus, .dividing-block .btn.btn-default.red-style:active:focus, .dividing-block .btn.btn-default.red-style:hover {
+  background: #524552;
+}
+
+/*contact
+-----------------------------------------------------------------------*/
+/* line 249, ../sass/variables-theme-color-8.scss */
+#contact .table-box h1 {
+  color: #362e36;
+  opacity: 0.8;
+}
+
+/* line 254, ../sass/variables-theme-color-8.scss */
+input[type="text"].white-style, input[type="email"].white-style,
+input[type="password"].white-style, input[type="name"].white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #362e36;
+}
+
+/* line 258, ../sass/variables-theme-color-8.scss */
+textarea.white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #362e36;
+}
+
+/* line 262, ../sass/variables-theme-color-8.scss */
+.btn-default.white-style {
+  color: #362e36;
+}
+
+/* line 265, ../sass/variables-theme-color-8.scss */
+textarea.white-style:focus {
+  box-shadow: inset 0 1px 0px #362e36;
+}
+
+/* line 268, ../sass/variables-theme-color-8.scss */
+.fix-map-height .background .layer {
+  background-color: #362e36 !important;
+}
+
+/* line 272, ../sass/variables-theme-color-8.scss */
+::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+/* line 275, ../sass/variables-theme-color-8.scss */
+:-moz-placeholder {
+  color: white !important;
+}
+
+/* line 278, ../sass/variables-theme-color-8.scss */
+::-moz-placeholder {
+  color: white !important;
+}
+
+/* line 281, ../sass/variables-theme-color-8.scss */
+:-ms-input-placeholder {
+  color: white !important;
+}
+
+/* line 284, ../sass/variables-theme-color-8.scss */
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+/* line 287, ../sass/variables-theme-color-8.scss */
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+/* line 290, ../sass/variables-theme-color-8.scss */
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+/* line 293, ../sass/variables-theme-color-8.scss */
+:focus:-ms-input-placeholder {
+  color: transparent;
+}

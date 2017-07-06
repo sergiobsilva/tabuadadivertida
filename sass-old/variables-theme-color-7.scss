@@ -1,0 +1,210 @@
+$myColor: #3c4c79;
+$btnPrimary: #3598db;
+$btnStart: #f77482;
+$btnSing: #f0a860;
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a:hover, a:active, a:focus {
+	color: darken($myColor, 7%); 
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+}
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+#header.top-menu {
+	background-color: #fff;
+}
+// .header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+// .header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+// 	color: #bbb;
+// }
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+.top-nav-line #menu-open .text {
+	color: $myColor;
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="name"]{
+	border: 1px solid $myColor;
+}
+
+.top-menu .navbar nav ul li a,
+.top-menu .navbar nav ul li a i {
+	color: $myColor!important;
+}
+.top-menu .navbar nav ul li.parent li a,
+.top-menu .navbar nav ul li.parent li a i {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu .navbar nav ul li a,
+.top-menu .minimized-menu  .navbar nav ul li a i,
+.top-menu .transform-menu .navbar nav ul li a,
+.top-menu .transform-menu  .navbar nav ul li a i  {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:after,
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:after {
+	background: #bbbbbb!important;
+}
+.logo-mini{
+	svg {
+		* {
+			fill: $myColor!important;
+		}
+	}
+}
+.primary-banner-center-box {
+	button {
+	  background: $btnPrimary;
+	  &:hover,
+	  &.button-hover {
+	  	background: darken($btnPrimary, 5%); 
+	  }
+	  &:active,
+	  &:focus,
+	  &:active:focus,
+	  &.button-active {
+	  	background: darken($btnPrimary, 7%); 
+	  	box-shadow: inset 0 2px 0px darken($btnPrimary, 8%); ;
+	  }
+	}
+}
+.primary-banner {
+	h1 {
+		margin-bottom: 30px;
+		color: #fff;
+	}
+	.next-sections{
+		bottom:8px;
+	}
+}
+
+
+/* Header 
+-----------------------------------------------*/
+.header{
+	position: fixed;
+}
+
+/* Portfolio
+------------------------------------------------------------------------------------*/
+.portfolio .isotop-filters{
+	background: $myColor;
+	opacity: .95;
+}
+.sliders .container-fluid .a-slider-tcontrols{
+	background: $myColor;
+}
+.sliders .container-fluid .a-slider-tcontrols a{
+	color:#fff;
+}
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name{
+	color:$myColor;
+}
+
+.portfolio .element-item:focus .overlay, 
+.portfolio .element-item:active .overlay, 
+.portfolio .element-item:hover .overlay{
+	background: $myColor;
+	opacity: .95;
+}
+.portfolio .isotope h3 span{
+	color:#fff;
+}
+
+.sliders .container-fluid .additional-info .link a{
+	background: $myColor;
+}
+.sliders .container-fluid .additional-info .link a:hover {
+	background: $myColor;
+	opacity: .9;
+}
+
+.portfolio .element-item .overlay .p-target path{
+	fill:#fff;
+}
+
+/*Fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/*sample-2
+------------------------------------------------------------------------------------*/
+.sample-2 {
+	.btn {
+		background: $btnSing;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%); ;
+			}
+		}	
+	}
+}

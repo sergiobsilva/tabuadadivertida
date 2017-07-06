@@ -1,0 +1,20 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie.scss */
+#twitter-timeline .owl-item {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+/* line 11, ../sass/ie.scss */
+#twitter-timeline .owl-item.active {
+  opacity: 1;
+}
+
+/* line 16, ../sass/ie.scss */
+.table-block .background {
+  height: 150%;
+}

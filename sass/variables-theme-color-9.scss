@@ -1,0 +1,310 @@
+$myColor: #437191;
+$btnStart: #01b169;
+$btnSing: #22a9d6;
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+}
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+#header.top-menu {
+	background-color: #fff;
+}
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: $myColor;
+	@media (max-width: 992px) {
+		color: #fff;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+.top-nav-line #menu-open {
+	background: #fff;
+}
+.top-nav-line #menu-open .text {
+	color: $myColor;
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+.top-menu .widget-box > div ul li a, 
+.top-menu .widget-box > div ul li i {
+	color: #eb8f00 !important;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+	border: 1px solid $myColor;
+}
+
+.logo-mini  {
+	background: #fff;
+	padding: 4px;
+	margin: 20px 0 0 20px;
+	@media(max-width:991px){
+		margin: 0;
+	}
+	a {
+		svg {
+			* {
+				fill: $myColor!important;
+			}
+		}
+	}
+}
+
+.primary-banner-center-box {
+	.btn {
+		background: $btnSing;
+		  padding: 13px 30px;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			margin-right: 25px;
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%); ;
+			}
+		}	
+	}
+}
+.primary-banner h1 {
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+/* menu soc & languages
+------------------------------------------------------------------------------------*/
+.menu-sidebar .header-box > div ul li a, 
+.menu-sidebar .header-box > div ul li a i {
+	color: #bbbbbb!important;
+	@media(max-width:767px){
+		color: #bbbbbb!important;
+	}
+		&:after {
+			background:  #bbbbbb;	
+	}
+}
+/* About
+------------------------------------------------------------------------------------*/
+#about-us .table-block h1,
+#about-us h5{
+	color: $myColor;
+	opacity:0.8;
+}
+#about-us .img-content-box{
+	.background .layer{
+		background-color: #437191 !important;
+	}
+}
+
+/*.sample-2 
+------------------------------------------------------------------------------------*/
+.sample-2 {
+	.btn {
+		background: $btnSing;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			@media(max-width:767px){
+				margin-bottom: 20px;
+				margin-right: 0;
+			}
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%); ;
+			}
+		}	
+	}
+}
+
+/*Services
+------------------------------------------------------------------------------------*/
+a:hover, a:active, a:focus {
+	color: $myColor;
+}
+.red-color {
+	color: $myColor;
+}
+.services h3:after {
+	background: $myColor;
+}
+.services .t2 .background .layer{
+	background-color: rgba(67, 113, 145, 0.9) !important;
+}
+/*fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/*like-theme
+------------------------------------------------------------------------------------*/
+.like-theme .purcase-now a .icon-box:before, 
+.like-theme .purcase-now a .icon-box:after {
+	background: $myColor;
+}
+
+/* Price
+------------------------------------------------------------------------------------*/
+#price .table-block h1{
+	color: $myColor;
+	opacity:0.8;
+}
+
+#price h5{
+	color: $myColor;
+}
+
+.pricing-box{
+	&.start{
+		.background .layer{
+			background-color: $myColor !important;
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+	&.optima{
+		.background .layer{
+			background-color: $myColor !important;
+			background-color: darken($myColor, 3%) !important; 
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+	&.vip{
+		.background .layer{
+			background-color: $myColor !important;
+			background-color: darken($myColor, 6%) !important; 
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+}
+
+.pricing-box ul li .price{
+	color:#fff;
+}
+.pricing-box a.btn-default{
+	color:$myColor;
+	&:active, &:focus, &:active:focus{
+		color: darken($myColor, 5%); 
+	}
+}
+
+
+/*Faq
+-----------------------------------------------------------------------*/
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq h1 {
+	color: $myColor;
+	opacity:0.8;
+}
+.faq h5.nav-tabs-title{
+	color:#fff;
+}
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:hover, .faq .nav-tabs > li.active > a:focus {
+  color: #bbbbbb !important;
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+.sample-3 {
+	span {
+		color: $myColor;
+	}
+	.btn-default.red-style {
+		background: $myColor;
+		&:hover,
+		&.button-hover {
+			background: darken($myColor, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($myColor, 7%); 
+			box-shadow: inset 0 2px 0px darken($myColor, 8%); ;
+		}
+	}
+}
+

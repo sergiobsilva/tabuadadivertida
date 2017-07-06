@@ -1,0 +1,366 @@
+/* line 6, ../sass/variables-theme-2.scss */
+a,
+a.default-hovered:active,
+a.default-hovered.default-active,
+a.default-hovered.active {
+  color: #02b26a;
+}
+
+/* line 10, ../sass/variables-theme-2.scss */
+a.default-hovered:hover,
+a.default-hovered.default-hover {
+  color: #02b26a;
+  opacity: 0.9;
+}
+
+/* line 16, ../sass/variables-theme-2.scss */
+a.default-hovered:active:after,
+a.default-hovered.default-active:after,
+a.default-hovered.active:after {
+  background: #02b26a;
+}
+@media (max-width: 767px) {
+  /* line 16, ../sass/variables-theme-2.scss */
+  a.default-hovered:active:after,
+  a.default-hovered.default-active:after,
+  a.default-hovered.active:after {
+    background: #bbb;
+  }
+}
+
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+/* line 24, ../sass/variables-theme-2.scss */
+#header.top-menu {
+  background-color: #fff;
+}
+
+/* line 28, ../sass/variables-theme-2.scss */
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+  color: #02b26a;
+}
+@media (max-width: 992px) {
+  /* line 28, ../sass/variables-theme-2.scss */
+  .header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+  .header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+    color: #fff;
+  }
+}
+
+/* line 34, ../sass/variables-theme-2.scss */
+a.default-hovered:after {
+  background: #02b26a;
+}
+
+/* line 37, ../sass/variables-theme-2.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #02b26a;
+  opacity: 0.8;
+}
+
+/* line 45, ../sass/variables-theme-2.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+  background-color: #02b26a;
+}
+
+/* line 50, ../sass/variables-theme-2.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #02b26a;
+}
+/* line 52, ../sass/variables-theme-2.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #02b26a;
+}
+
+@media (max-width: 767px) {
+  /* line 56, ../sass/variables-theme-2.scss */
+  .menu-sidebar .widget-box > div ul li a, .menu-sidebar .widget-box > div ul li i {
+    color: #bbbbbb !important;
+  }
+}
+
+/* line 61, ../sass/variables-theme-2.scss */
+.top-nav-line #menu-open {
+  background: #fff;
+}
+
+/* line 64, ../sass/variables-theme-2.scss */
+.top-nav-line #menu-open .text {
+  color: #02b26a;
+}
+
+/* line 67, ../sass/variables-theme-2.scss */
+a.default-hovered:focus:after {
+  background: #02b26a;
+}
+
+/* line 71, ../sass/variables-theme-2.scss */
+.top-menu .widget-box > div ul li a,
+.top-menu .widget-box > div ul li i {
+  color: #eb8f00 !important;
+}
+
+/* line 75, ../sass/variables-theme-2.scss */
+.logo-mini {
+  padding: 4px;
+  margin: 20px 0 0 20px;
+  background: #fff;
+}
+@media (max-width: 991px) {
+  /* line 75, ../sass/variables-theme-2.scss */
+  .logo-mini {
+    margin: 0;
+  }
+}
+/* line 83, ../sass/variables-theme-2.scss */
+.logo-mini svg * {
+  fill: #02b26a !important;
+}
+
+/* line 90, ../sass/variables-theme-2.scss */
+.menu-sidebar .header-box > div ul li a,
+.menu-sidebar .header-box > div ul li a i {
+  color: #bbbbbb !important;
+}
+@media (max-width: 767px) {
+  /* line 90, ../sass/variables-theme-2.scss */
+  .menu-sidebar .header-box > div ul li a,
+  .menu-sidebar .header-box > div ul li a i {
+    color: #bbbbbb !important;
+  }
+}
+/* line 95, ../sass/variables-theme-2.scss */
+.menu-sidebar .header-box > div ul li a:after,
+.menu-sidebar .header-box > div ul li a i:after {
+  background: #bbbbbb;
+}
+
+/*Primary
+---------------------------------------------*/
+/* line 101, ../sass/variables-theme-2.scss */
+.primary-banner h1 {
+  margin-bottom: 30px;
+}
+
+/* line 104, ../sass/variables-theme-2.scss */
+.primary-banner p.tlt {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+}
+@media (max-width: 767px) {
+  /* line 104, ../sass/variables-theme-2.scss */
+  .primary-banner p.tlt {
+    font-size: 18px;
+  }
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+/* line 116, ../sass/variables-theme-2.scss */
+#about-us .table-block h1,
+#about-us h5 {
+  color: #02b26a;
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+/* line 123, ../sass/variables-theme-2.scss */
+.sample-3 span {
+  color: #02b26a;
+}
+/* line 126, ../sass/variables-theme-2.scss */
+.sample-3 .btn-default.red-style {
+  background: #02b26a;
+}
+/* line 129, ../sass/variables-theme-2.scss */
+.sample-3 .btn-default.red-style:hover, .sample-3 .btn-default.red-style.button-hover {
+  background: #02995b;
+}
+/* line 135, ../sass/variables-theme-2.scss */
+.sample-3 .btn-default.red-style:active, .sample-3 .btn-default.red-style:focus, .sample-3 .btn-default.red-style:active:focus, .sample-3 .btn-default.red-style.button-active {
+  background: #028f55;
+  box-shadow: inset 0 2px 0px #028a52;
+}
+
+/* portfolio
+------------------------------------------------------------------------------------*/
+/* line 144, ../sass/variables-theme-2.scss */
+.portfolio .isotop-filters {
+  opacity: .95;
+  background: #02b26a;
+}
+
+/* line 148, ../sass/variables-theme-2.scss */
+.sliders .container-fluid .a-slider-tcontrols {
+  background: #02b26a;
+}
+
+/* line 151, ../sass/variables-theme-2.scss */
+.sliders .container-fluid .a-slider-tcontrols a {
+  color: #fff;
+}
+
+/* line 155, ../sass/variables-theme-2.scss */
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name {
+  color: #02b26a;
+}
+
+/* line 161, ../sass/variables-theme-2.scss */
+.portfolio .element-item:focus .overlay,
+.portfolio .element-item:active .overlay,
+.portfolio .element-item:hover .overlay {
+  opacity: .8;
+  background: #02b26a;
+}
+
+/* line 165, ../sass/variables-theme-2.scss */
+.portfolio .isotope h3 span {
+  color: #fff;
+}
+
+/* line 169, ../sass/variables-theme-2.scss */
+.sliders .container-fluid .additional-info .link a {
+  background: #02b26a;
+}
+
+/* line 172, ../sass/variables-theme-2.scss */
+.sliders .container-fluid .additional-info .link a:hover {
+  opacity: .9;
+  background: #02b26a;
+}
+
+/* line 177, ../sass/variables-theme-2.scss */
+.portfolio .element-item .overlay .p-target path {
+  fill: #fff;
+}
+
+/*.client-carousel
+------------------------------------------------------------------------------------*/
+/* line 184, ../sass/variables-theme-2.scss */
+.client-carousel h5,
+.client-carousel span {
+  color: #fff;
+}
+
+/* line 187, ../sass/variables-theme-2.scss */
+.client-carousel h5:after {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* line 191, ../sass/variables-theme-2.scss */
+.cl-thumbs-wrapper .cl-prev,
+.cl-thumbs-wrapper .cl-next {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 195, ../sass/variables-theme-2.scss */
+.cl-thumbs-wrapper .cl-prev:hover,
+.cl-thumbs-wrapper .cl-next:hover {
+  color: #FFFFFF;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+/* line 202, ../sass/variables-theme-2.scss */
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i {
+  color: #02b26a;
+}
+
+/*contact
+------------------------------------------------------------------------------------*/
+/* line 208, ../sass/variables-theme-2.scss */
+#contact .table-box h1 {
+  color: rgba(2, 178, 106, 0.9);
+}
+
+/* line 212, ../sass/variables-theme-2.scss */
+input[type="text"].white-style, input[type="email"].white-style,
+input[type="password"].white-style, input[type="name"].white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #02b26a;
+}
+
+/* line 216, ../sass/variables-theme-2.scss */
+textarea.white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #02b26a;
+}
+
+/* line 220, ../sass/variables-theme-2.scss */
+.btn-default.white-style {
+  color: #02b26a;
+}
+
+/* line 223, ../sass/variables-theme-2.scss */
+textarea.white-style:focus {
+  box-shadow: inset 0 1px 0px #02b26a;
+}
+
+/*animation
+----------------------------------------------------------------------------------*/
+/* line 229, ../sass/variables-theme-2.scss */
+.pulse {
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+  animation-duration: 25s;
+  -webkit-animation-duration: 25s;
+  -webkit-animation-timing-function: ease-in-out;
+  /* Chrome, Safari, Opera */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  /* line 241, ../sass/variables-theme-2.scss */
+  0% {
+    transform: scale(0.9) rotate(0deg);
+  }
+
+  /* line 244, ../sass/variables-theme-2.scss */
+  50% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  /* line 247, ../sass/variables-theme-2.scss */
+  100% {
+    transform: scale(0.9) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes pulse {
+  /* line 253, ../sass/variables-theme-2.scss */
+  0% {
+    -webkit-transform: scale(0.95), rotate(0deg);
+  }
+
+  /* line 256, ../sass/variables-theme-2.scss */
+  50% {
+    -webkit-transform: scale(1), rotate(5deg);
+  }
+
+  /* line 259, ../sass/variables-theme-2.scss */
+  100% {
+    -webkit-transform: scale(0.95), rotate(0deg);
+  }
+}
+
+/* Team
+-----------------------------------------------------------------*/
+/* line 268, ../sass/variables-theme-2.scss */
+#thumbs-wrapper #thumbs a:hover span,
+#thumbs-wrapper #thumbs a.selected span,
+#thumbs-wrapper #thumbs a:focus span {
+  border-color: rgba(238, 239, 238, 0.57);
+}

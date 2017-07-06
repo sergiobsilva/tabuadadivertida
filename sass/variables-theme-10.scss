@@ -1,0 +1,448 @@
+@import "variables.scss";
+$myColor: #2579bf;
+$btnStart: #f77482;
+$btnSing: #f0a860;
+ 
+/*Demo 10
+-----------------------------------------------------------------------------------*/
+.top-menu .navbar nav ul li a,
+.top-menu .navbar nav ul li a i {
+	color: $myColor!important;
+}
+.top-menu .navbar nav ul li.parent li a,
+.top-menu .navbar nav ul li.parent li a i {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu .navbar nav ul li a,
+.top-menu .minimized-menu  .navbar nav ul li a i,
+.top-menu .transform-menu .navbar nav ul li a,
+.top-menu .transform-menu  .navbar nav ul li a i  {
+	color: #bbbbbb!important;
+}
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .minimized-menu  .navbar nav ul li a.default-hovered:after,
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:hover:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:focus:after, 
+.top-menu .transform-menu  .navbar nav ul li a.default-hovered:after {
+	background: #bbbbbb!important;
+}
+
+@media  (min-width:768px){
+  .primary-banner-center-box > .container-fluid > .row{
+    display: table;
+    width: 100%;
+    margin: 0;
+    >div{
+      display: table-cell;
+      vertical-align: middle;
+      float: none;
+      .background{
+      } 
+    }
+  }
+}
+.primary-banner-center-box > .container-fluid > .row >div{
+  padding-left: 0;
+  padding-right: 0;
+}
+@media(min-width:992px) and (max-width: 1480px){
+  .primary-banner h1 span {
+    @include rem(font-size,55px);
+  }
+}
+@media (max-width: 991px){
+  .primary-banner h1 span {
+    @include rem(font-size,55px);
+  }
+}
+.primary-banner p.tlt{
+	@media(min-width:768px){
+	  margin: 0 0 -50px !important;
+	}
+}
+.element-item {
+  width: 50%;
+}
+.firefox .portfolio {
+  @media(min-width:992px){
+    .element-item {
+      width: 50%;
+    }
+  }
+}
+
+.primary-banner .social-feeds {
+	border:none;
+	padding-left: 15px;
+	padding-right: 15px;
+	.social-feeds-box{
+  padding:0 !important;
+}
+}
+.primary-banner .social-feeds .social-feeds-box .owl-controls .owl-nav div i,
+.primary-banner .social-feeds .social-feeds-box .owl-item li p,
+.primary-banner .social-feeds .social-feeds-box .owl-item li p a{
+  color:#fff !important;
+}
+.social-feeds .social-feeds-box .owl-controls .owl-nav div i:hover{
+	color: rgba(255, 255, 255, 0.73) !important;
+}
+.social-feeds .social-feeds-box h5{
+  text-transform: uppercase;
+}
+.primary-banner{
+	.title-box, .tweets-box{
+	  @media(max-width:767px){
+	    padding-top: 60px;
+	    padding-bottom: 40px;
+	  }
+	}
+	.wrap-tweet{
+    margin-left: -15px;
+    margin-right: -15px;
+	}
+}
+.primary-banner .title-box{
+	background-color:#2063ad;
+  overflow: hidden;
+}
+.primary-banner .tweets-box{
+	background-color:#00c2f7;
+  overflow: hidden;
+}
+
+
+.logo-mini  {
+	svg {
+		width: 60px;
+		height: 40px;
+		path{
+			fill:$myColor !important;
+		}
+	}
+}
+
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+}
+/* Header Menu
+-------------------------------------------------------------------------------------*/
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: $myColor;
+	@media (max-width: 992px) {
+		color: #fff;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+	border: 1px solid $myColor;
+}
+.form-control:focus {
+	border: 1px solid $myColor;
+}
+
+.logo-mini  {
+	svg {
+		width: 60px;
+		height: 40px;
+	}
+}
+
+/* about
+------------------------------------------------------------------------------------*/
+#about-us .table-block h1,
+#about-us h5{
+	color: $myColor;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/* portfolio
+------------------------------------------------------------------------------------*/
+.portfolio .isotop-filters{
+	background: rgba(221, 130, 0, 0.95);
+}
+.sliders .container-fluid .a-slider-tcontrols{
+	background: $myColor;
+}
+.sliders .container-fluid .a-slider-tcontrols a{
+	color:#fff;
+}
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name{
+	color:$myColor;
+}
+
+.portfolio .isotope h3 span{
+	color:#fff;
+}
+
+.sliders .container-fluid .additional-info .link a{
+	background: $myColor;
+}
+.sliders .container-fluid .additional-info .link a:hover {
+  background: rgba(221, 130, 0, 0.9);
+}
+
+.portfolio .element-item .overlay .p-target path{
+	fill:#fff;
+}
+
+
+/*services*/
+a:hover, a:active, a:focus {
+	color: $myColor;
+}
+.red-color {
+	color: $myColor;
+}
+.services h3:after {
+	background: $myColor;
+}
+.like-theme .purcase-now a .icon-box:before, 
+.like-theme .purcase-now a .icon-box:after {
+	background: $myColor;
+}
+
+/* price
+------------------------------------------------------------------------------------*/
+#price .table-block h1{
+	color: $myColor;
+	opacity:0.8;
+}
+
+#price h5{
+	color: $myColor;
+}
+
+.pricing-box{
+	&.start{
+		.background .layer{
+			background-color: $myColor !important;
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+	&.optima{
+		.background .layer{
+			background-color: $myColor !important;
+			background-color: darken($myColor, 3%) !important; 
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+	&.vip{
+		.background .layer{
+			background-color: $myColor !important;
+			background-color: darken($myColor, 6%) !important; 
+		}
+		.price-icon {
+		  box-shadow: 0 0 0 10px rgba(255,255,255,0.1);
+      color: $myColor;
+		}
+	}
+}
+
+.pricing-box ul li .price{
+	color:#fff;
+}
+.pricing-box a.btn-default{
+	color:$myColor;
+	&:active, &:focus, &:active:focus{
+		color: darken($myColor, 5%); 
+	}
+}
+/*notify me*/
+.btn-default.red-style {
+	background-color: $myColor;
+}
+.btn-default.red-style:hover, .btn-default.red-style.button-hover {
+	background-color: rgba(255, 143, 0, 0.9);
+}
+.sliders .rslides_tabs li.rslides_here a:after, 
+.sliders .rslides_tabs li:hover a:after {
+	background-color: rgba(255, 143, 0, 1);
+}
+.sliders .rslides_tabs li a:after {
+	background-color: rgba(255, 143, 0, 0.75);
+}
+.sliders .rslides_tabs li.rslides_here a:before,
+.sliders .rslides_tabs li:hover a:before {
+ 	border: 1px solid $myColor;
+}
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq h1 {
+	color: $myColor;
+}
+.dividing-block.sample-3 span {
+	color: $myColor;
+}
+.sample-3 {
+
+}
+/*sample-2
+------------------------------------------------------------------------------------*/
+.sample-2 {
+	.btn {
+		background: $btnSing;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%); ;
+			}
+		}	
+	}
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+.sample-3 {
+	span {
+		color: $myColor;
+	}
+	.btn-default.red-style {
+		background: $myColor;
+		&:hover,
+		&.button-hover {
+			background: darken($myColor, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($myColor, 7%); 
+			box-shadow: inset 0 2px 0px darken($myColor, 8%); ;
+		}
+	}
+}
+
+/*contact
+------------------------------------------------------------------------------------*/
+#contact {
+	.table-box h1 {
+		color:$myColor;
+		opacity:0.8;
+	}
+
+	.fix-map-height .background .layer{
+		background: $myColor !important;
+	}
+
+	input[type="text"].white-style, input[type="email"].white-style, 
+	input[type="password"].white-style, input[type="name"].white-style{
+		background: rgba(255, 255, 255, .2);
+		box-shadow: inset 0 1px 0px $myColor;
+	}
+	textarea.white-style{
+		background: rgba(255, 255, 255, .2);
+		box-shadow: inset 0 1px 0px $myColor;
+	}
+	.btn-default.white-style {
+		color: $myColor;
+	}
+	textarea.white-style:focus{
+		box-shadow: inset 0 1px 0px $myColor;
+	}
+}
+
+::-webkit-input-placeholder {
+	color: #fff !important;
+}
+:-moz-placeholder {
+	color: #fff!important;
+}
+::-moz-placeholder {
+	color: #fff!important;
+}
+:-ms-input-placeholder {
+	color: #fff!important;
+}
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+:focus:-moz-placeholder {
+  color: transparent;
+}
+:focus::-moz-placeholder {
+  color: transparent;
+}
+:focus:-ms-input-placeholder {
+  color: transparent;
+}

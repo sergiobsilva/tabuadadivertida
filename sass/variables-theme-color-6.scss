@@ -1,0 +1,231 @@
+$myColor: #425864;
+$btnStart: #f77482;
+$btnSing: #f0a860;
+
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+}
+/* Header Menu
+-------------------------------------------------------------------------------------*/
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: $myColor;
+	@media (max-width: 992px) {
+		color: #fff;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+.top-nav-line #menu-open .text {
+	color: $myColor;
+}
+.top-nav-line #menu-open {
+	background: #fff;
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+
+.menu-sidebar .header-box > div ul li a, 
+.menu-sidebar .header-box > div ul li a i {
+	color: #bbbbbb!important;
+	@media(max-width:767px){
+		color: #bbbbbb!important;
+	}
+		&:after {
+			background:  #bbbbbb;	
+	}
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+	border: 1px solid $myColor;
+}
+
+.logo-mini  {
+	padding: 0;
+	margin: 20px 0 0 20px;
+	@media(max-width:991px){
+		margin: 0;
+	}
+	svg {
+		* {
+			fill: #fff!important;
+		}
+	}
+}
+.primary-banner h1 {
+	color: #fff;
+	font-size: 120px;
+	margin-bottom: 30px;
+}
+.primary-banner p.tlt-2 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+}
+p {
+	.word1, 
+	.word2, 
+	.word3, 
+	.word4 {
+		display: none!important;
+	}	
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+#about-us .table-block h1,
+#about-us h5{
+	color: $myColor;
+}
+
+/*sample-2
+------------------------------------------------------------------------------------*/
+.sample-2 {
+	.btn {
+		background: $btnSing;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%); ;
+			}
+		}	
+	}
+}
+
+/*Services*/
+a:hover, a:active, a:focus {
+	color: $myColor;
+}
+.red-color {
+	color: $myColor;
+}
+.services h3:after {
+	background: $myColor;
+}
+.like-theme .purcase-now a .icon-box:before, 
+.like-theme .purcase-now a .icon-box:after {
+	background: $myColor;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/*Faq
+-----------------------------------------------------------------------*/
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq h1 {
+	color: $myColor;
+	opacity:0.8;
+}
+.faq h5.nav-tabs-title{
+	color:#fff;
+}
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:hover, .faq .nav-tabs > li.active > a:focus {
+  color: #bbbbbb !important;
+}
+
+
+/*dividing3
+-----------------------------------------------------*/
+.sample-3 {
+	span {
+		color: $myColor;
+	}
+	.btn-default.red-style {
+		background: $myColor;
+		&:hover,
+		&.button-hover {
+			background: darken($myColor, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($myColor, 7%); 
+			box-shadow: inset 0 2px 0px darken($myColor, 8%); ;
+		}
+	}
+}
+/*contact*/
+#contact .table-box h1 {
+	color: rgba(66, 88, 100, 0.9);
+}
+input[type="text"].white-style, input[type="email"].white-style, 
+input[type="password"].white-style, input[type="name"].white-style {
+	background: rgba(255, 255, 255, .2);
+	box-shadow: inset 0 1px 0px $myColor;
+}
+textarea.white-style {
+	background: rgba(255, 255, 255, .2);
+	box-shadow: inset 0 1px 0px $myColor;
+}
+.btn-default.white-style {
+	color: $myColor;
+}
+textarea.white-style:focus {
+	box-shadow: inset 0 1px 0px $myColor;
+}

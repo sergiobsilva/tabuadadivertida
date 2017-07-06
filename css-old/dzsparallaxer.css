@@ -1,0 +1,473 @@
+/*
+ * Author: Digital Zoom Studio
+ * Website: http://digitalzoomstudio.net/
+ * Portfolio: http://codecanyon.net/user/ZoomIt/portfolio
+ *
+ * Version: 1.30
+ *
+ */
+@-webkit-keyframes keyframes-rotate {
+  /* line 32, ../sass/dzsparallaxer.scss */
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 33, ../sass/dzsparallaxer.scss */
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  /* line 34, ../sass/dzsparallaxer.scss */
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes keyframes-rotate {
+  /* line 37, ../sass/dzsparallaxer.scss */
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 38, ../sass/dzsparallaxer.scss */
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  /* line 39, ../sass/dzsparallaxer.scss */
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* line 45, ../sass/dzsparallaxer.scss */
+.dzsparallaxer {
+  height: 300px;
+  overflow: hidden;
+  background-color: #1c1a17;
+  position: relative;
+  transition-property: height;
+  transition-duration: 0.3s;
+  -moz-transition-property: height;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-property: height;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-property: height;
+  -o-transition-duration: 0.3s;
+  -ms-transition-property: height;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-out-quart;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+/* line 55, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .dzsparallaxer--target {
+  position: relative;
+}
+/* line 63, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .dzsparallaxer--target.position-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 68, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .dzsparallaxer--blackoverlay {
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+/* line 79, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .big-text {
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+  font-size: 40px;
+  font-weight: 300;
+  top: 70px;
+  color: #eee;
+  line-height: 1.5;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  opacity: 0.7;
+}
+/* line 96, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .big-text .smaller {
+  font-size: 60%;
+}
+/* line 102, ../sass/dzsparallaxer.scss */
+.dzsparallaxer .center-it {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+/* line 110, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 116, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"] .display-block {
+  display: block;
+}
+/* line 120, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"].top {
+  bottom: auto;
+  top: 0;
+}
+/* line 124, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"].flippedY {
+  transform: scaleY(-1);
+}
+/* line 127, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"].flippedX {
+  transform: scaleX(-1);
+}
+/* line 131, ../sass/dzsparallaxer.scss */
+.dzsparallaxer *[class^="dzsprxseparator--"].flippedXY {
+  transform: scale(-1, -1);
+}
+
+/* line 143, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.wait-readyall .dzsparallaxer--target {
+  opacity: 0;
+  transition-property: height, opacity;
+  transition-duration: 0.5s;
+  -moz-transition-property: height, opacity;
+  -moz-transition-duration: 0.5s;
+  -webkit-transition-property: height, opacity;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-property: height, opacity;
+  -o-transition-duration: 0.5s;
+  -ms-transition-property: height, opacity;
+  -ms-transition-duration: 0.5s;
+  -ms-transition-timing-function: ease-out-quart;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* line 151, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.wait-readyall.dzsprx-readyall .dzsparallaxer--target {
+  opacity: 1;
+}
+
+/* line 163, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.use-loading .dzsparallaxer--target {
+  opacity: 0;
+  transition-property: opacity, visibility;
+  transition-duration: 0.7s;
+  -moz-transition-property: opacity, visibility;
+  -moz-transition-duration: 0.7s;
+  -webkit-transition-property: opacity, visibility;
+  -webkit-transition-duration: 0.7s;
+  -o-transition-property: opacity, visibility;
+  -o-transition-duration: 0.7s;
+  -ms-transition-property: opacity, visibility;
+  -ms-transition-duration: 0.7s;
+  -ms-transition-timing-function: ease-out-quart;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+/* line 170, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.use-loading .preloader-semicircles {
+  transition-property: all;
+  transition-duration: 0.3s;
+  -moz-transition-property: all;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-property: all;
+  -o-transition-duration: 0.3s;
+  -ms-transition-property: all;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-out-quart;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* line 175, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.use-loading.loaded .dzsparallaxer--target {
+  opacity: 1;
+}
+/* line 178, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.use-loading.loaded .preloader-semicircles {
+  transform: translate3d(0, -50px, 0);
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* line 184, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.allbody {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* line 192, ../sass/dzsparallaxer.scss */
+.divimage {
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 197, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.simple-parallax {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* line 209, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.simple-parallax .simple-parallax-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, auto, auto, 0);
+}
+/* line 217, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.simple-parallax .dzsparallaxer--target {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 235, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.simple-parallax.dzsprx-readyall .dzsparallaxer--target {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 243, ../sass/dzsparallaxer.scss */
+.blur-it {
+  filter: blur(20px);
+  -webkit-filter: blur(20px);
+}
+
+/* line 254, ../sass/dzsparallaxer.scss */
+.semi-black-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#99000000',GradientType=0 );
+}
+
+@-webkit-keyframes preloader-semicircles-tween {
+  /* line 272, ../sass/dzsparallaxer.scss */
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 273, ../sass/dzsparallaxer.scss */
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  /* line 274, ../sass/dzsparallaxer.scss */
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-semicircles-tween {
+  /* line 277, ../sass/dzsparallaxer.scss */
+  0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 278, ../sass/dzsparallaxer.scss */
+  50% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  /* line 279, ../sass/dzsparallaxer.scss */
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* line 283, ../sass/dzsparallaxer.scss */
+.preloader-semicircles {
+  width: 15px;
+  height: 15px;
+  background: rgba(230, 50, 50, 0.9);
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.7;
+  pointer-events: none;
+  margin-left: -15px;
+  margin-right: -15px;
+  animation: preloader-semicircles-tween 1.4s infinite linear;
+  -webkit-animation: preloader-semicircles-tween 1.4s infinite linear;
+}
+
+/* line 305, ../sass/dzsparallaxer.scss */
+.preloader-semicircles:after {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-top: 5px solid #c83232;
+  border-bottom: 5px solid #c83232;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-radius: 25px;
+  content: '';
+  top: -10px;
+  left: -10px;
+  box-sizing: content-box;
+}
+
+/* line 321, ../sass/dzsparallaxer.scss */
+.center-it {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+/* line 330, ../sass/dzsparallaxer.scss */
+.dzs-colcontainer {
+  margin-left: -15px;
+  margin-right: -15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 335, ../sass/dzsparallaxer.scss */
+.dzs-colcontainer:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* line 338, ../sass/dzsparallaxer.scss */
+*[class*="dzs-col-"] {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 343, ../sass/dzsparallaxer.scss */
+.dzs-col-3 {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 348, ../sass/dzsparallaxer.scss */
+.dzs-col-4 {
+  width: 33.3%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 353, ../sass/dzsparallaxer.scss */
+.dzs-col-8 {
+  width: 66.6%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 358, ../sass/dzsparallaxer.scss */
+.dzs-col-6 {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 364, ../sass/dzsparallaxer.scss */
+.dzs-col-12 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 372, ../sass/dzsparallaxer.scss */
+.dzsparallaxer--team-members-con {
+  width: 70%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* line 380, ../sass/dzsparallaxer.scss */
+.dzsparallaxer.under-760 .dzsparallaxer--team-members-con {
+  width: 100%;
+}
+
+/* line 387, ../sass/dzsparallaxer.scss */
+.dzsparallaxer--team-member-con {
+  text-align: center;
+}
+/* line 389, ../sass/dzsparallaxer.scss */
+.dzsparallaxer--team-member-con img {
+  max-width: 100%;
+}
+/* line 393, ../sass/dzsparallaxer.scss */
+.dzsparallaxer--team-member-con .team-member--title {
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 15px;
+  line-height: 1;
+  font-size: 15px;
+}
+/* line 400, ../sass/dzsparallaxer.scss */
+.dzsparallaxer--team-member-con .team-member--subtitle {
+  opacity: 0.5;
+  margin-top: 10px;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+  color: #111;
+  padding: 5px;
+}

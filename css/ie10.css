@@ -1,0 +1,44 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie10.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie10.scss */
+.ie10 #twitter-timeline .owl-item {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+/* line 11, ../sass/ie10.scss */
+.ie10 #twitter-timeline .owl-item.active {
+  opacity: 1;
+}
+/* line 16, ../sass/ie10.scss */
+.ie10 .table-block .background {
+  height: 200%;
+}
+/* line 20, ../sass/ie10.scss */
+.ie10 .cl-thumbs-wrapper .cl-thumbs a {
+  display: block;
+  padding-top: 30px;
+}
+/* line 25, ../sass/ie10.scss */
+.ie10 .menu-sidebar.minimized-menu.header .primary .navbar .navbar-collapse .nav .parent .parent > a {
+  padding: 4px 5px 4px 5px !important;
+}
+/* line 29, ../sass/ie10.scss */
+.ie10 .menu-sidebar.minimized-menu.header .primary .navbar .navbar-collapse .nav .parent .parent .open-sub {
+  right: -50px;
+  z-index: -1;
+}
+/* line 33, ../sass/ie10.scss */
+.ie10 .menu-sidebar.minimized-menu.header .primary .navbar .navbar-collapse .nav .parent .parent .open-sub:after {
+  content: " ";
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: -150px;
+  height: 30px;
+  background-color: #161212;
+  z-index: -1;
+}

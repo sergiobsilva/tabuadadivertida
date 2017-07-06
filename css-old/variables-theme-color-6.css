@@ -1,0 +1,291 @@
+/* line 9, ../sass/variables-theme-color-6.scss */
+a,
+a.default-hovered:active,
+a.default-hovered.default-active,
+a.default-hovered.active {
+  color: #425864;
+}
+
+/* line 13, ../sass/variables-theme-color-6.scss */
+a.default-hovered:hover,
+a.default-hovered.default-hover {
+  color: #425864;
+  opacity: 0.9;
+}
+
+/* line 19, ../sass/variables-theme-color-6.scss */
+a.default-hovered:active:after,
+a.default-hovered.default-active:after,
+a.default-hovered.active:after {
+  background: #425864;
+}
+
+/* Header Menu
+-------------------------------------------------------------------------------------*/
+/* line 25, ../sass/variables-theme-color-6.scss */
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+  color: #425864;
+}
+@media (max-width: 992px) {
+  /* line 25, ../sass/variables-theme-color-6.scss */
+  .header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+  .header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+    color: #fff;
+  }
+}
+
+/* line 31, ../sass/variables-theme-color-6.scss */
+a.default-hovered:after {
+  background: #425864;
+}
+
+/* line 34, ../sass/variables-theme-color-6.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #425864;
+  opacity: 0.8;
+}
+
+/* line 40, ../sass/variables-theme-color-6.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text,
+.header.minimized-menu .primary .navbar .btn-navbar .text {
+  color: #425864;
+}
+
+/* line 46, ../sass/variables-theme-color-6.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+  background-color: #425864;
+}
+
+/* line 51, ../sass/variables-theme-color-6.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #425864;
+}
+/* line 53, ../sass/variables-theme-color-6.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #425864;
+}
+
+/* line 57, ../sass/variables-theme-color-6.scss */
+.top-nav-line #menu-open .text {
+  color: #425864;
+}
+
+/* line 60, ../sass/variables-theme-color-6.scss */
+.top-nav-line #menu-open {
+  background: #fff;
+}
+
+/* line 63, ../sass/variables-theme-color-6.scss */
+a.default-hovered:focus:after {
+  background: #425864;
+}
+
+/* line 68, ../sass/variables-theme-color-6.scss */
+.menu-sidebar .header-box > div ul li a,
+.menu-sidebar .header-box > div ul li a i {
+  color: #bbbbbb !important;
+}
+@media (max-width: 767px) {
+  /* line 68, ../sass/variables-theme-color-6.scss */
+  .menu-sidebar .header-box > div ul li a,
+  .menu-sidebar .header-box > div ul li a i {
+    color: #bbbbbb !important;
+  }
+}
+/* line 73, ../sass/variables-theme-color-6.scss */
+.menu-sidebar .header-box > div ul li a:after,
+.menu-sidebar .header-box > div ul li a i:after {
+  background: #bbbbbb;
+}
+
+/* line 77, ../sass/variables-theme-color-6.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+  border: 1px solid #425864;
+}
+
+/* line 81, ../sass/variables-theme-color-6.scss */
+.logo-mini {
+  padding: 0;
+  margin: 20px 0 0 20px;
+}
+@media (max-width: 991px) {
+  /* line 81, ../sass/variables-theme-color-6.scss */
+  .logo-mini {
+    margin: 0;
+  }
+}
+/* line 88, ../sass/variables-theme-color-6.scss */
+.logo-mini svg * {
+  fill: white !important;
+}
+
+/* line 93, ../sass/variables-theme-color-6.scss */
+.primary-banner h1 {
+  color: #fff;
+  font-size: 120px;
+  margin-bottom: 30px;
+}
+
+/* line 98, ../sass/variables-theme-color-6.scss */
+.primary-banner p.tlt-2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+/* line 108, ../sass/variables-theme-color-6.scss */
+p .word1,
+p .word2,
+p .word3,
+p .word4 {
+  display: none !important;
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+/* line 116, ../sass/variables-theme-color-6.scss */
+#about-us .table-block h1,
+#about-us h5 {
+  color: #425864;
+}
+
+/*sample-2
+------------------------------------------------------------------------------------*/
+/* line 123, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn {
+  background: #f0a860;
+}
+/* line 126, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn:hover, .sample-2 .btn.button-hover {
+  background: #ee9b49;
+}
+/* line 132, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn:active, .sample-2 .btn:focus, .sample-2 .btn:active:focus, .sample-2 .btn.button-active {
+  background: #ed963f;
+  box-shadow: inset 0 2px 0px #ec943b;
+}
+/* line 136, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn.red-style {
+  background: #f77482;
+}
+/* line 139, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn.red-style:hover, .sample-2 .btn.red-style.button-hover {
+  background: #f65c6c;
+}
+/* line 145, ../sass/variables-theme-color-6.scss */
+.sample-2 .btn.red-style:active, .sample-2 .btn.red-style:focus, .sample-2 .btn.red-style:active:focus, .sample-2 .btn.red-style.button-active {
+  background: #f55264;
+  box-shadow: inset 0 2px 0px #f54d5f;
+}
+
+/*Services*/
+/* line 154, ../sass/variables-theme-color-6.scss */
+a:hover, a:active, a:focus {
+  color: #425864;
+}
+
+/* line 157, ../sass/variables-theme-color-6.scss */
+.red-color {
+  color: #425864;
+}
+
+/* line 160, ../sass/variables-theme-color-6.scss */
+.services h3:after {
+  background: #425864;
+}
+
+/* line 164, ../sass/variables-theme-color-6.scss */
+.like-theme .purcase-now a .icon-box:before,
+.like-theme .purcase-now a .icon-box:after {
+  background: #425864;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+/* line 171, ../sass/variables-theme-color-6.scss */
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i {
+  color: #425864;
+}
+
+/*Faq
+-----------------------------------------------------------------------*/
+/* line 177, ../sass/variables-theme-color-6.scss */
+.faq .tab-content h5, .faq .tab-content h6 {
+  color: #425864;
+}
+
+/* line 180, ../sass/variables-theme-color-6.scss */
+.faq h1 {
+  color: #425864;
+  opacity: 0.8;
+}
+
+/* line 184, ../sass/variables-theme-color-6.scss */
+.faq h5.nav-tabs-title {
+  color: #fff;
+}
+
+/* line 187, ../sass/variables-theme-color-6.scss */
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:hover, .faq .nav-tabs > li.active > a:focus {
+  color: #bbbbbb !important;
+}
+
+/*dividing3
+-----------------------------------------------------*/
+/* line 195, ../sass/variables-theme-color-6.scss */
+.sample-3 span {
+  color: #425864;
+}
+/* line 198, ../sass/variables-theme-color-6.scss */
+.sample-3 .btn-default.red-style {
+  background: #425864;
+}
+/* line 201, ../sass/variables-theme-color-6.scss */
+.sample-3 .btn-default.red-style:hover, .sample-3 .btn-default.red-style.button-hover {
+  background: #384a55;
+}
+/* line 207, ../sass/variables-theme-color-6.scss */
+.sample-3 .btn-default.red-style:active, .sample-3 .btn-default.red-style:focus, .sample-3 .btn-default.red-style:active:focus, .sample-3 .btn-default.red-style.button-active {
+  background: #34454e;
+  box-shadow: inset 0 2px 0px #32424b;
+}
+
+/*contact*/
+/* line 214, ../sass/variables-theme-color-6.scss */
+#contact .table-box h1 {
+  color: rgba(66, 88, 100, 0.9);
+}
+
+/* line 218, ../sass/variables-theme-color-6.scss */
+input[type="text"].white-style, input[type="email"].white-style,
+input[type="password"].white-style, input[type="name"].white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #425864;
+}
+
+/* line 222, ../sass/variables-theme-color-6.scss */
+textarea.white-style {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0px #425864;
+}
+
+/* line 226, ../sass/variables-theme-color-6.scss */
+.btn-default.white-style {
+  color: #425864;
+}
+
+/* line 229, ../sass/variables-theme-color-6.scss */
+textarea.white-style:focus {
+  box-shadow: inset 0 1px 0px #425864;
+}

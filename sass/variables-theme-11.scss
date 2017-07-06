@@ -1,0 +1,360 @@
+@import "variables.scss";
+$myColor: #444a60;
+$btnStart: #f77482;
+$btnSing: #f0a860;
+ 
+/*Demo 11
+-----------------------------------------------------------------------------------*/
+.top-nav-line.demo-11 #menu-open{
+	background: none;
+	.text{
+		opacity: 0;
+	}
+	.icon-bar{
+		background:$myColor;
+	}
+}
+
+.menu-sidebar .header-box > div ul li a, 
+.menu-sidebar .header-box > div ul li a i {
+	color: #bbbbbb!important;
+	@media(max-width:767px){
+		color: #bbbbbb!important;
+	}
+		&:after {
+			background:  #bbbbbb;	
+	}
+}
+
+@media  (min-width:992px){
+  .primary-banner-center-box > .container-fluid > .row{
+    display: table;
+    width: 100%;
+    margin: 0;
+    >div{
+      display: table-cell;
+      vertical-align: middle;
+      float: none;
+    }
+  }
+}
+.primary-banner-center-box > .container-fluid > .row >div{
+  padding-left: 0;
+  padding-right: 0;
+}
+.primary-banner h1 {
+	padding-left: 30px;
+  line-height: 0.87;
+	span {
+    color: $myColor;
+    
+  }
+}
+@media (min-width: 992px) and (max-width:1140px){
+  .primary-banner h1 span {
+    @include rem(font-size,75px);
+  }
+}
+@media (max-width: 991px){
+  .primary-banner h1 span {
+    @include rem(font-size,55px);
+  }
+}
+.primary-banner p.tlt{
+  margin: 0 0 -50px !important;
+  color: $myColor;
+}
+.element-item {
+  width: 25%;
+  @media(max-width:767px){
+  	width: 50%;
+  }
+}
+.firefox .portfolio {
+  @media(min-width:992px){
+    .element-item {
+      width: 25%;
+      @media(max-width:767px){
+		  	width: 50%;
+		  }
+    }
+  }
+}
+
+.title-box{
+  @media(max-width:991px){
+    padding-top: 120px;
+    padding-bottom: 140px;
+  }
+}
+
+
+.logo-mini  {
+	padding: 0;
+	margin: 32px 0 0 32px;
+	@media(max-width:991px){
+		margin:10px;
+	}
+	@media(max-width:991px){
+		margin:15px 0 0 ;
+	}
+	svg {
+		width: 60px;
+		height: 40px;
+		path{
+			fill:$myColor !important;
+		}
+	}
+}
+
+
+a,
+a.default-hovered:active, 
+a.default-hovered.default-active, 
+a.default-hovered.active{
+  color: $myColor;
+}
+a.default-hovered:hover, 
+a.default-hovered.default-hover{
+	color: $myColor;
+	opacity:0.9;
+}
+a.default-hovered:active:after, 
+a.default-hovered.default-active:after, 
+a.default-hovered.active:after{
+	background: $myColor;
+}
+/* Header Menu
+-------------------------------------------------------------------------------------*/
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a, 
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a{
+	color: $myColor;
+	@media (max-width: 992px) {
+		color: #fff;
+	}
+}
+a.default-hovered:after{
+	background: $myColor;
+}
+a.default-hovered:hover:after, a.default-hovered.default-hover:after{
+	background: $myColor;
+	opacity:0.8;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text, 
+.header.minimized-menu .primary .navbar .btn-navbar .text{
+	color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar, 
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar {
+	background-color: $myColor;
+}
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar, 
+.header.top-menu.transform-menu .primary .navbar .btn-navbar, 
+.header.minimized-menu .primary .navbar .btn-navbar {
+	border-color: $myColor;
+	&.opened {
+		background: $myColor;
+	}
+}
+a.default-hovered:focus:after {
+	background: $myColor;
+}
+.top-menu .widget-box > div ul li a, 
+.top-menu .widget-box > div ul li i {
+	color: #eb8f00 !important;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+	border: 1px solid $myColor;
+}
+.form-control:focus {
+	border: 1px solid $myColor;
+}
+
+.top-nav-line #menu-open {
+	@media(max-width:991px){
+
+	}
+	@media(max-width:767px){
+	   width: 38px;		
+	}
+}
+.logo-mini  {
+	margin: 30px 0 0 30px;
+	@media(max-width:991px){
+		margin:11px 0 0 24px;
+		padding: 0;
+	}
+	@media(max-width:767px){
+		margin:15px 0 0 10px;
+	}
+}
+
+
+
+/* About
+------------------------------------------------------------------------------------*/
+#about-us .table-block h1,
+#about-us h5{
+	color: $myColor;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i{
+	color: $myColor;
+}
+
+/* portfolio
+------------------------------------------------------------------------------------*/
+.portfolio .isotop-filters{
+	background: rgba(221, 130, 0, 0.95);
+}
+.sliders .container-fluid .a-slider-tcontrols{
+	background: $myColor;
+}
+.sliders .container-fluid .a-slider-tcontrols a{
+	color:#fff;
+}
+.sliders .container-fluid .additional-info .heading,
+.sliders .container-fluid .album-sliders-container h4.album-name{
+	color:$myColor;
+}
+
+.portfolio .isotope h3 span{
+	color:#fff;
+}
+
+.sliders .container-fluid .additional-info .link a{
+	background: $myColor;
+}
+.sliders .container-fluid .additional-info .link a:hover {
+  background: rgba(68, 74, 96, 0.91);
+}
+
+.portfolio .element-item .overlay .p-target path{
+	fill:#fff;
+}
+
+
+/*Services
+------------------------------------------------------------------------------------*/
+a:hover, a:active, a:focus {
+	color: $myColor;
+}
+.red-color {
+	color: $myColor;
+}
+.services h3:after {
+	background: $myColor;
+}
+.services .t2 .background .layer{
+	background-color: rgba(68, 74, 96, 0.95) !important;
+}
+
+
+.like-theme .purcase-now a .icon-box:before, 
+.like-theme .purcase-now a .icon-box:after {
+	background: $myColor;
+}
+
+.pricing-box ul li .price {
+	color: #fff;
+}
+/* Clients
+----------------------------------------------------------------------------------*/
+.clFirst-box .background .layer:last-of-type{
+	background-color: rgba(68, 74, 96, 0.95) !important;
+}
+.clients >.background .layer{
+	background-color: #444a60 !important;
+}
+.client-carousel h5,
+.client-carousel span{
+	color:#fff;
+}
+.client-carousel h5:after {
+  background: rgba(255, 255, 255, 0.75);
+}
+.cl-thumbs-wrapper .cl-prev,
+.cl-thumbs-wrapper .cl-next{
+	color: rgba(255, 255, 255, 0.6);
+}
+.cl-thumbs-wrapper .cl-prev:hover,
+.cl-thumbs-wrapper .cl-next:hover {
+  color: #FFFFFF;
+}
+
+/*Notify me
+---------------------------------------------------------------------------------*/
+.btn-default.red-style {
+	background-color: $myColor;
+}
+.btn-default.red-style:hover, .btn-default.red-style.button-hover {
+	background-color: rgba(68, 74, 96, 0.91);
+}
+.sliders .rslides_tabs li.rslides_here a:after, 
+.sliders .rslides_tabs li:hover a:after {
+	background-color: rgba(68, 74, 96, 1);
+}
+.sliders .rslides_tabs li a:after {
+	background-color: rgba(68, 74, 96, 0.75);
+}
+.sliders .rslides_tabs li.rslides_here a:before,
+.sliders .rslides_tabs li:hover a:before {
+ 	border: 1px solid $myColor;
+}
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq .tab-content h5, .faq .tab-content h6 {
+	color: $myColor;
+}
+.faq h1 {
+	color: $myColor;
+}
+.dividing-block.sample-3 span {
+	color: $myColor;
+}
+
+/* Team
+-------------------------------------------------------------------------------------*/
+#thumbs-wrapper #thumbs a:hover span,
+#thumbs-wrapper #thumbs a.selected span, 
+#thumbs-wrapper #thumbs a:focus span {
+    border-color: rgba(255, 255, 255, 0.43);
+}
+/*sample-2
+------------------------------------------------------------------------------------*/
+.sample-2 {
+	.btn {
+		background: $btnSing;
+		&:hover,
+		&.button-hover {
+			background: darken($btnSing, 5%); 
+		}
+		&:active,
+		&:focus,
+		&:active:focus,
+		&.button-active {
+			background: darken($btnSing, 7%); 
+			box-shadow: inset 0 2px 0px darken($btnSing, 8%); ;
+		}
+		&.red-style {
+			background: $btnStart;
+			&:hover,
+			&.button-hover {
+				background: darken($btnStart, 5%); 
+			}
+			&:active,
+			&:focus,
+			&:active:focus,
+			&.button-active {
+				background: darken($btnStart, 7%); 
+				box-shadow: inset 0 2px 0px darken($btnStart, 8%);
+			}
+		}	
+	}
+}

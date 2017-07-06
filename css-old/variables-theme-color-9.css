@@ -1,0 +1,366 @@
+/* line 8, ../sass/variables-theme-color-9.scss */
+a,
+a.default-hovered:active,
+a.default-hovered.default-active,
+a.default-hovered.active {
+  color: #437191;
+}
+
+/* line 12, ../sass/variables-theme-color-9.scss */
+a.default-hovered:hover,
+a.default-hovered.default-hover {
+  color: #437191;
+  opacity: 0.9;
+}
+
+/* line 18, ../sass/variables-theme-color-9.scss */
+a.default-hovered:active:after,
+a.default-hovered.default-active:after,
+a.default-hovered.active:after {
+  background: #437191;
+}
+
+/* Header Menu 
+-------------------------------------------------------------------------------------*/
+/* line 23, ../sass/variables-theme-color-9.scss */
+#header.top-menu {
+  background-color: #fff;
+}
+
+/* line 27, ../sass/variables-theme-color-9.scss */
+.header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+.header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+  color: #437191;
+}
+@media (max-width: 992px) {
+  /* line 27, ../sass/variables-theme-color-9.scss */
+  .header.top-menu:not(.minimized-menu) .primary .navbar .navbar-collapse .nav > li > a,
+  .header.top-menu:not(.transform-menu) .primary .navbar .navbar-collapse .nav > li > a {
+    color: #fff;
+  }
+}
+
+/* line 33, ../sass/variables-theme-color-9.scss */
+a.default-hovered:after {
+  background: #437191;
+}
+
+/* line 36, ../sass/variables-theme-color-9.scss */
+a.default-hovered:hover:after, a.default-hovered.default-hover:after {
+  background: #437191;
+  opacity: 0.8;
+}
+
+/* line 42, ../sass/variables-theme-color-9.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .text,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .text,
+.header.minimized-menu .primary .navbar .btn-navbar .text {
+  color: #437191;
+}
+
+/* line 48, ../sass/variables-theme-color-9.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar .icon-bar,
+.header.minimized-menu .primary .navbar .btn-navbar .icon-bar,
+.top-nav-line #menu-open .icon-bar {
+  background-color: #437191;
+}
+
+/* line 53, ../sass/variables-theme-color-9.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar,
+.header.minimized-menu .primary .navbar .btn-navbar {
+  border-color: #437191;
+}
+/* line 55, ../sass/variables-theme-color-9.scss */
+.header.top-menu.minimized-menu .primary .navbar .btn-navbar.opened,
+.header.top-menu.transform-menu .primary .navbar .btn-navbar.opened,
+.header.minimized-menu .primary .navbar .btn-navbar.opened {
+  background: #437191;
+}
+
+/* line 59, ../sass/variables-theme-color-9.scss */
+.top-nav-line #menu-open {
+  background: #fff;
+}
+
+/* line 62, ../sass/variables-theme-color-9.scss */
+.top-nav-line #menu-open .text {
+  color: #437191;
+}
+
+/* line 65, ../sass/variables-theme-color-9.scss */
+a.default-hovered:focus:after {
+  background: #437191;
+}
+
+/* line 69, ../sass/variables-theme-color-9.scss */
+.top-menu .widget-box > div ul li a,
+.top-menu .widget-box > div ul li i {
+  color: #eb8f00 !important;
+}
+
+/* line 72, ../sass/variables-theme-color-9.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="name"] {
+  border: 1px solid #437191;
+}
+
+/* line 76, ../sass/variables-theme-color-9.scss */
+.logo-mini {
+  background: #fff;
+  padding: 4px;
+  margin: 20px 0 0 20px;
+}
+@media (max-width: 991px) {
+  /* line 76, ../sass/variables-theme-color-9.scss */
+  .logo-mini {
+    margin: 0;
+  }
+}
+/* line 85, ../sass/variables-theme-color-9.scss */
+.logo-mini a svg * {
+  fill: #437191 !important;
+}
+
+/* line 93, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn {
+  background: #22a9d6;
+  padding: 13px 30px;
+}
+/* line 97, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn:hover, .primary-banner-center-box .btn.button-hover {
+  background: #1f98c0;
+}
+/* line 103, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn:active, .primary-banner-center-box .btn:focus, .primary-banner-center-box .btn:active:focus, .primary-banner-center-box .btn.button-active {
+  background: #1d91b7;
+  box-shadow: inset 0 2px 0px #1c8db3;
+}
+/* line 107, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn.red-style {
+  background: #01b169;
+  margin-right: 25px;
+}
+/* line 111, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn.red-style:hover, .primary-banner-center-box .btn.red-style.button-hover {
+  background: #01985a;
+}
+/* line 117, ../sass/variables-theme-color-9.scss */
+.primary-banner-center-box .btn.red-style:active, .primary-banner-center-box .btn.red-style:focus, .primary-banner-center-box .btn.red-style:active:focus, .primary-banner-center-box .btn.red-style.button-active {
+  background: #018e54;
+  box-shadow: inset 0 2px 0px #018851;
+}
+
+/* line 124, ../sass/variables-theme-color-9.scss */
+.primary-banner h1 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* menu soc & languages
+------------------------------------------------------------------------------------*/
+/* line 132, ../sass/variables-theme-color-9.scss */
+.menu-sidebar .header-box > div ul li a,
+.menu-sidebar .header-box > div ul li a i {
+  color: #bbbbbb !important;
+}
+@media (max-width: 767px) {
+  /* line 132, ../sass/variables-theme-color-9.scss */
+  .menu-sidebar .header-box > div ul li a,
+  .menu-sidebar .header-box > div ul li a i {
+    color: #bbbbbb !important;
+  }
+}
+/* line 137, ../sass/variables-theme-color-9.scss */
+.menu-sidebar .header-box > div ul li a:after,
+.menu-sidebar .header-box > div ul li a i:after {
+  background: #bbbbbb;
+}
+
+/* About
+------------------------------------------------------------------------------------*/
+/* line 144, ../sass/variables-theme-color-9.scss */
+#about-us .table-block h1,
+#about-us h5 {
+  color: #437191;
+  opacity: 0.8;
+}
+
+/* line 149, ../sass/variables-theme-color-9.scss */
+#about-us .img-content-box .background .layer {
+  background-color: #437191 !important;
+}
+
+/*.sample-2 
+------------------------------------------------------------------------------------*/
+/* line 157, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn {
+  background: #22a9d6;
+}
+/* line 160, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn:hover, .sample-2 .btn.button-hover {
+  background: #1f98c0;
+}
+/* line 166, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn:active, .sample-2 .btn:focus, .sample-2 .btn:active:focus, .sample-2 .btn.button-active {
+  background: #1d91b7;
+  box-shadow: inset 0 2px 0px #1c8db3;
+}
+/* line 170, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn.red-style {
+  background: #01b169;
+}
+@media (max-width: 767px) {
+  /* line 170, ../sass/variables-theme-color-9.scss */
+  .sample-2 .btn.red-style {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+/* line 177, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn.red-style:hover, .sample-2 .btn.red-style.button-hover {
+  background: #01985a;
+}
+/* line 183, ../sass/variables-theme-color-9.scss */
+.sample-2 .btn.red-style:active, .sample-2 .btn.red-style:focus, .sample-2 .btn.red-style:active:focus, .sample-2 .btn.red-style.button-active {
+  background: #018e54;
+  box-shadow: inset 0 2px 0px #018851;
+}
+
+/*Services
+------------------------------------------------------------------------------------*/
+/* line 193, ../sass/variables-theme-color-9.scss */
+a:hover, a:active, a:focus {
+  color: #437191;
+}
+
+/* line 196, ../sass/variables-theme-color-9.scss */
+.red-color {
+  color: #437191;
+}
+
+/* line 199, ../sass/variables-theme-color-9.scss */
+.services h3:after {
+  background: #437191;
+}
+
+/* line 202, ../sass/variables-theme-color-9.scss */
+.services .t2 .background .layer {
+  background-color: rgba(67, 113, 145, 0.9) !important;
+}
+
+/*fan-facts
+------------------------------------------------------------------------------------*/
+/* line 208, ../sass/variables-theme-color-9.scss */
+.fan-facts .timer-box .timer,
+.fan-facts .timer-box p i {
+  color: #437191;
+}
+
+/*like-theme
+------------------------------------------------------------------------------------*/
+/* line 215, ../sass/variables-theme-color-9.scss */
+.like-theme .purcase-now a .icon-box:before,
+.like-theme .purcase-now a .icon-box:after {
+  background: #437191;
+}
+
+/* Price
+------------------------------------------------------------------------------------*/
+/* line 221, ../sass/variables-theme-color-9.scss */
+#price .table-block h1 {
+  color: #437191;
+  opacity: 0.8;
+}
+
+/* line 226, ../sass/variables-theme-color-9.scss */
+#price h5 {
+  color: #437191;
+}
+
+/* line 232, ../sass/variables-theme-color-9.scss */
+.pricing-box.start .background .layer {
+  background-color: #437191 !important;
+}
+/* line 235, ../sass/variables-theme-color-9.scss */
+.pricing-box.start .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #437191;
+}
+/* line 241, ../sass/variables-theme-color-9.scss */
+.pricing-box.optima .background .layer {
+  background-color: #437191 !important;
+  background-color: #3e6987 !important;
+}
+/* line 245, ../sass/variables-theme-color-9.scss */
+.pricing-box.optima .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #437191;
+}
+/* line 251, ../sass/variables-theme-color-9.scss */
+.pricing-box.vip .background .layer {
+  background-color: #437191 !important;
+  background-color: #39617c !important;
+}
+/* line 255, ../sass/variables-theme-color-9.scss */
+.pricing-box.vip .price-icon {
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #437191;
+}
+
+/* line 262, ../sass/variables-theme-color-9.scss */
+.pricing-box ul li .price {
+  color: #fff;
+}
+
+/* line 265, ../sass/variables-theme-color-9.scss */
+.pricing-box a.btn-default {
+  color: #437191;
+}
+/* line 267, ../sass/variables-theme-color-9.scss */
+.pricing-box a.btn-default:active, .pricing-box a.btn-default:focus, .pricing-box a.btn-default:active:focus {
+  color: #3b6380;
+}
+
+/*Faq
+-----------------------------------------------------------------------*/
+/* line 275, ../sass/variables-theme-color-9.scss */
+.faq .tab-content h5, .faq .tab-content h6 {
+  color: #437191;
+}
+
+/* line 278, ../sass/variables-theme-color-9.scss */
+.faq h1 {
+  color: #437191;
+  opacity: 0.8;
+}
+
+/* line 282, ../sass/variables-theme-color-9.scss */
+.faq h5.nav-tabs-title {
+  color: #fff;
+}
+
+/* line 285, ../sass/variables-theme-color-9.scss */
+.faq .nav-tabs > li.active > a, .faq .nav-tabs > li.active > a:hover, .faq .nav-tabs > li.active > a:focus {
+  color: #bbbbbb !important;
+}
+
+/*sample-3
+------------------------------------------------------------------------------------*/
+/* line 292, ../sass/variables-theme-color-9.scss */
+.sample-3 span {
+  color: #437191;
+}
+/* line 295, ../sass/variables-theme-color-9.scss */
+.sample-3 .btn-default.red-style {
+  background: #437191;
+}
+/* line 298, ../sass/variables-theme-color-9.scss */
+.sample-3 .btn-default.red-style:hover, .sample-3 .btn-default.red-style.button-hover {
+  background: #3b6380;
+}
+/* line 304, ../sass/variables-theme-color-9.scss */
+.sample-3 .btn-default.red-style:active, .sample-3 .btn-default.red-style:focus, .sample-3 .btn-default.red-style:active:focus, .sample-3 .btn-default.red-style.button-active {
+  background: #385e79;
+  box-shadow: inset 0 2px 0px #365b75;
+}
